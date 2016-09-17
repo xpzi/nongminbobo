@@ -1,0 +1,455 @@
+	/* 列表页css样式表 */
+body{background: #f5f7f8;}
+
+
+/* 这里的数据全部是动态回去的 可变的内容   */
+/*  searchInfo start */
+/* 位置导航  */
+.searchInfo{
+	 margin-bottom: 10px;
+}
+.positi{
+	height:20px;
+	line-height: 20px;
+	padding: 10px 0;
+	 color:#999;
+	    font-family: "宋体";	
+}
+.positi i{
+	font-size: 14px;
+    color: #AAA;
+    margin-right: 4px;
+   
+}
+.positi a{
+	color:#888;	
+}
+.infolist{
+	border: solid 1px #D7D7D7;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 25px;
+}
+.bth2{
+	height: 36px;
+	border-bottom: 1px solid #eee;
+}
+.bth2 h2{
+	float: left;
+	font-size: 17px;
+    color: #f62121;
+    font-weight: 700;
+    margin: 0 10px;
+}
+.bth2 span i{font-size: 17px; color: #f62121;font-weight: 700;}
+.bth2 span{
+    font: 400 12px/20px "microsoft yahei";
+    color: #999;
+    height: 20px;
+}
+/*typelist */
+.typelist{
+	height: 40px;
+	border-bottom: 1px solid #eee;
+}
+.typelist div{
+	margin-left: 20px ;
+	position: relative;
+	height: 40px;
+	float: left;
+	padding:0 3px 0 10px;
+	border-right: #eee solid 1px;
+	line-height: 40px;
+}
+.typelist div a{
+	color: #555;
+}
+.typelist div i{
+	position: absolute;
+	display: block;
+	width: 11px;
+	height: 11px;
+	top :6px;
+	right: -16px;
+}
+.typelist .jian i{
+	background: url(../img/2014shop_background_img.png) no-repeat -11px 0;
+}
+.typelist .jia i{
+	background: url(../img/2014shop_background_img.png) no-repeat 0px 0;
+}
+.onType{
+	height: 38px;
+	line-height: 38px;
+	border-bottom: 1px solid #EEEEEE;
+}
+.onType a{
+	float: left;
+	height: 38px;
+	color: #555555;
+	margin-left:25px;
+}
+
+/* <!-- paixu  anniu  排序 --> */
+.sort{
+	height: 45px;
+	background: #fff;
+	margin-bottom: 10px;
+}
+.mainsort{
+	float: left;
+	/*padding-top: 10px;*/
+	margin:10px 0 0 10px;
+}
+.mainsort .cur,.mainsort a:hover{
+	border-color:#C81623;
+	color: #D93600;
+	background: #FFFFFF;
+}
+.mainsort a{
+	background: #F8F8F8;
+	margin-right: 10px;
+    line-height: 24px;
+    color: #555;
+    display: block;
+    float: left;
+    padding: 0 10px;
+    border:1px solid #DDDDDD;
+}
+.mainsort a:hover i{     background-position: -7px -11px; }
+.mainsort a i{
+	background: url(../img/2014shop_background_img.png) no-repeat 0 -11px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 7px;
+    height: 8px;
+    margin-left: 4px;
+}
+
+.func{
+	width: 350px;
+	height: 40px;
+	float: left;
+	position: relative;
+}
+.func div{
+	padding-top:5px ;
+	top: 0;
+	left:0;
+	margin:5px 0 0 5px ;
+	width: 350px;
+	overflow: hidden;
+	position: absolute;
+	border: 1px solid #FFFFFF;
+	height: 25px;
+	background: #FFFFFF;
+}
+.func div:hover{
+	overflow: visible;
+	height: auto;
+	border: 1px solid #EEEEEE;
+}
+.func a{
+	float:left;
+	height: 20px;
+	font-size: 12px;
+	color: #555;
+	padding: 0 10px 10px;
+}
+.func a:hover{color: #D93600;}
+.func a:hover i{    background: url(../img/2014shop_background_img.png) no-repeat -56px 0;} 
+.func a i{
+    background: url(../img/2014shop_background_img.png) no-repeat -44px 0;
+    vertical-align: middle;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 4px;
+}
+.posi{
+	margin: 10px 0 0;
+	height: 25px;
+	width: 370px;
+	float: left;	
+}
+.posi .posiposi{
+	text-align: center;
+}
+.posiposi span{
+	color: #555555;
+	line-height: 22px;
+	display: inline-block;
+	height: 22px;
+	width: 70px;
+	border: 1px solid #EEEEEE;
+	position: relative;
+}
+.posiposi span:hover{
+	border-color: #DDDDDD;
+}
+.posiposi span:hover .diqu{
+	display: block;
+}
+.posiposi span:hover span{border-color: #FFFFFF;}
+.posiposi span span{
+	position: absolute;
+	border: 0;
+	left: 0;
+	border-bottom: 1px solid #EEEEEE;
+	z-index: 1;
+}
+.diqu{
+	display: none;
+	position: absolute;
+	width: 370px;
+	height: 360px;
+	border: 1px solid #DDDDDD;
+	top:22px;
+	left: -150px;
+	background: #FFFFFF;
+}
+.sort .page{
+	float: right;
+	height: 40px;
+	margin-right: 10px;
+}
+.sort .page a{
+	height: 24px;
+	padding: 0px 10px;
+	margin: 8px 5px 0 0;
+	border: 1px solid #EEEEEE;
+	line-height: 24px;
+	display: inline-block;
+	color:#AAAAAA;
+}
+.sort .page .yes{
+	color: #005AA0;
+}
+.sort .page .yes:hover{
+	color: #FFFFFF;
+	border-color: #D93600;
+	background: #D93600;
+}
+
+/*<!-- 商品列表 -->*/
+.splist{
+	
+}
+.splist ul{width: 1250px; margin-left:-15px;}
+.splist li{
+
+    font-size: 12px;
+    vertical-align: middle;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    width: 288px;
+    margin: 12px 0 0 15px;
+    height: 405px;
+    overflow: hidden;
+
+}
+.splist li:hover{
+	overflow:visible;
+}
+.splist li:hover>div{
+box-shadow: 0 3px 3px rgba(102,102,102,.65);
+    height: 460px!important;
+    position: relative;
+} 
+
+.splist li img{
+	height: 288px;
+	width: 288px;
+	margin-bottom: 14px;
+}
+.splist li p {
+	margin: 0 11px;
+} 
+.splist li>div{background: #fff; height: 462px;}
+.splist li .price{
+    font: 12px/20px Arial;
+    color: #C00;
+    background-color: #FFF;
+    white-space: nowrap;
+    display: block;
+    height: 20px;
+}
+.splist .price b{
+	font-size: 22px;
+	color: #c00;
+}
+ .splist .price em{
+ 	font-size: 12px;
+ }
+  .splist .price del{
+  	font-size: 12px;
+  	color: #AAAAAA;
+  	display: inline-block;
+  	margin: -5px  0 0 5px;
+  }
+ .splist .price img{
+ 	float: right;
+ 	height: 16px;
+	width: 16px;
+	margin: 0 2px;
+ }
+ .splist .jianjie{
+ 	margin-top:10px;
+ 	line-height: 18px;
+ 	font-size: 14px;
+ 	height: 36px;
+ 	overflow: hidden;
+ 	
+ }
+ .splist .jianjie a{
+ 	color: #333;
+ }
+  .splist .jianjie span{
+  	color:#f30;
+  }
+  .splist .dj{
+  	    margin-top: 10px;
+  	    height:18px ;
+  }
+  .splist .dj .l i{
+   display: block;
+    position: absolute;
+    left: 2px;
+    width: 20px;
+    height: 16px;
+	background: url(../img/icon_common.png) no-repeat;
+    background-position: -266px -302px;
+    
+  }
+.splist .dj .l{
+    float: left;
+    position: relative;
+    display: inline-block;
+    padding-left: 25px;
+    color: #333;
+    font-weight: 700;
+}
+.splist .dj .r{
+	float: right;
+    max-width: 110px;
+    color: #999;
+}
+.splist button{
+	font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F32613;
+    border: 1px dotted #F32613;
+    width: 120px;
+    text-align: center;
+    display: block;
+    padding: 8px 0;
+    float: left;
+    margin: 10px 0 ;
+    background: #FFFFFF;
+    margin-left: 10px ;
+    
+}
+.splist button:hover{
+    color: #FFF;
+    text-decoration: none;
+    background-color: #F32613;
+
+}
+.duibi{display: none;}
+
+.spPage{
+	margin: 30px;
+	height: 40px;
+	text-align: center;
+	line-height: 38px;
+}
+.spPage a{
+	display: inline-block;
+	height: 38px;
+	min-width: 28px;
+	background:#FFFFFF;
+	border: 1px solid #E6E6E6;
+	margin-left: -5px;
+	padding: 0 5px;
+	color: #555;
+}
+.spPage a:hover{
+	background: #ED5500;
+	border-color: #DB4453;
+	color: #FFFFff;
+}
+.spPage .first{
+	margin: 0 10px;
+}
+
+
+/*  <!-- rexiao  热销商品 --> */
+.spbt1{
+	height: 38px;
+    line-height: 38px;
+    padding: 10px 0;
+    font: 400 14px/20px "microsoft yahei";
+}
+.spbt1 h2{
+    color: #333;
+    font-size: 18px;
+    margin-right: 15px;
+    font-weight:600;
+    float: left;
+}
+.spbt1 span{  
+    color: #999;
+    height: 20px;
+    float: left;
+    /*padding: 8px 10px;*/
+   padding-top:3px;
+}
+.rexiao ul{
+	width: 1250px;
+	height: 321px;
+}
+.rexiao li{
+    position: relative;
+    z-index: 1;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    width: 226px;
+    height: 304px;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    overflow: hidden;
+}
+.rexiao img{
+	height: 226px;
+	width: 226px;
+}
+.rexiao p{
+    margin-bottom: 9px;
+    padding: 0 15px;
+    height: 40px;
+    overflow: hidden;
+}
+.rexiao p a{
+    line-height: 20px;
+    font-size: 12px;
+    color: #333;
+    font-weight: 400;
+    word-break: break-all;
+}
+.rexiao li div{
+    padding: 0 15px;
+    line-height: 14px;
+    color: #E31436;
+    font-size: 16px;
+    font-weight: 700;
+}
+.rexiao em{
+    padding-left: 5px;
+    text-decoration: line-through;
+    color: #999;
+    font-size: 12px;
+    font-weight: 400;
+}

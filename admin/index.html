@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">	
+	<!-- 确保v适当的绘制和屏幕缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- IE 使用 dege内核渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <!-- 告诉浏览器使用 webkit 内核 -->
+    <meta name="renderer" content="webkit">
+    
+	<title>农民伯伯后台管理</title>
+	<script src="../public/js/login.js" type="text/javascript" charset="utf-8"></script>
+	
+	<script src="../public/js/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../public/js/admin/admin.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="../public/css/admin.css"/>
+</head>
+<body>
+	<div class="htmlLink"></div>
+	
+	<!-- header 头部 -->
+	<div class="head">			
+		<h1 class="logo">农民伯伯商品管理后台</h1>
+		<div class="right">
+			<div id="adminname"></div>
+			<div  class="tuichu btn btn-info">退出</div>
+		</div>
+		
+	</div>
+	
+	<!-- 右侧导航  -->
+	<div class="leftNav">
+	<div class="leftbox">		
+		<ul class="list-group">			
+			<li>
+				<a href="#" class="list-group-item active ">商品管理</a>
+				<div class="haizi ">
+					<a href="addsp.html" class="list-group-item">添加商品 </a>
+					<a href="sp.html" class="list-group-item">管理商品</a>
+				</div>				
+			</li>
+			<li>
+				<a href="#" class="list-group-item active ">订单管理</a>
+				<div class="haizi ">
+					<a href="addsp.html" class="list-group-item">未处理订单 </a>
+					<a href="sp.html" class="list-group-item">全部订单</a>
+				</div>				
+			</li>
+			<li>
+				<a href="#" class="list-group-item active ">分类管理</a>
+				<div class="haizi ">
+					<!--<a href="editortype.html" class="list-group-item">编辑分类 </a>-->
+					<a href="type.html" class="list-group-item">添加分类</a>
+				</div>				
+			</li>
+			<li>
+				<a href="#" class="list-group-item active ">店铺管理</a>
+				<div class="haizi ">
+					<a href="#" class="list-group-item">管理店铺</a>
+				</div>				
+			</li>	
+			<li>
+				<a href="#" class="list-group-item active ">会员管理</a>
+				<div class="haizi">
+					<a href="#" class="list-group-item">查看会员</a>
+					<a href="#" class="list-group-item">修改会员</a>
+				</div>				
+			</li>		
+		</ul>
+	</div>
+	</div>
+	
+	
+	<!--  内容页面 -->
+	<div class="content"></div>
+	
+	
+</body>
+</html>

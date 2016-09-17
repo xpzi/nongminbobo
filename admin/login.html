@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>myadmin</title>
+<style>
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(images/grass.jpg);
+	font-size:13px;
+	}
+img{
+	border:0;
+	}
+.lg{width:468px; height:468px; margin:100px auto; background:url(images/login_bg.png) no-repeat;}
+.lg_top{ height:200px; width:468px;}
+.lg_main{width:400px; height:180px; margin:0 25px;}
+.lg_m_1{
+	width:290px;
+	height:100px;
+	padding:60px 55px 20px 55px;
+}
+.ur{
+	height:37px;
+	border:0;
+	color:#666;
+	width:236px;
+	margin:4px 28px;
+	background:url(images/user.png) no-repeat;
+	padding-left:10px;
+	font-size:16pt;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.pw{
+	height:37px;
+	border:0;
+	color:#666;
+	width:236px;
+	margin:4px 28px;
+	background:url(images/password.png) no-repeat;
+	padding-left:10px;
+	font-size:16pt;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.bn{width:330px; height:72px; background:url(images/enter.png) no-repeat; border:0; display:block; font-size:18px; color:#FFF; font-family:Arial, Helvetica, sans-serif; font-weight:bolder;}
+.lg_foot{
+	height:80px;
+	width:330px;
+	padding: 6px 68px 0 68px;
+}
+</style>
+
+<script src="../public/js/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../public/js/login.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		var dange = 'http://localhost:8080/product/GetProductById_post';
+		
+		$( ".bn").click(function(){
+			var name = $('.ur').eq(0).val();
+			var pass = $('.pw').eq(0).val();
+			
+			//在这里做个 没有填写完成的验证
+			if( name == "" || pass == ""){
+				return false;
+			}
+			
+			
+			//没有后台接口怎么做？  没法做 ，只能这样咯
+			$.ajax({
+				data:{ id: "000" },
+				url : dange,
+				success: function(data , status, xhr){
+					//成功返回
+					data = JSON.parse(data);						
+					data = JSON.parse( data.Data ).dj;
+					if( data ){
+						for(var i = 0 ; i< data.sum ; i++  ){
+							if( data.data[i].name == name &&  data.data[i].pass == pass){
+								//设置cookie 并跳转
+								adminCookie.set( JSON.stringify(data.data[i]) );
+								window.location.href="index.html";
+								return false;
+							}
+						}
+						if(i == data.sum){
+							alert("用户名或密码错误");
+						}
+					} else{
+						alert("用户不存在，请联系管理员");
+					}
+				},
+				error: function( xhr, sratus, error){
+					console.log( error);
+				},
+				type: "POST"				
+			});
+			return false;
+		});
+		
+		
+		//读取用户名
+		function getAdminUser(){
+			var admin = adminCookie.get();
+			console.log( admin );
+			if(admin){
+				admin = JSON.parse( admin );
+				console.log( admin );
+				$('input[name=username]').val( admin.name );
+				$('input[name=password]').val( admin.pass );
+			}
+		}
+		getAdminUser();
+		
+	});
+	
+</script>
+</head>
+
+<body class="b">
+
+	<div class="lg">
+		<form  method="post">
+		    <div class="lg_top"></div>
+		    <div class="lg_main">
+		        <div class="lg_m_1">		        
+			        <input name="username" value="" class="ur" />
+			        <input name="password" type="password" value="" class="pw" />		        
+		        </div>
+		    </div>
+		    <div class="lg_foot">
+		    <input type="submit" value="登 &nbsp;&nbsp;录" class="bn" /></div>
+		</form>
+	</div>
+</body>
+</html>

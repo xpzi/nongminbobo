@@ -1,0 +1,913 @@
+ /* 首页 index miancss  */
+
+/* main start */
+.mian{background: #f5f7f8;}
+
+/* 公告  notice start */
+.notice{
+	height: 0;
+	position: relative;
+}
+.noticeBox{
+	z-index:50 ;
+	position: absolute;
+	width: 230px;
+	height: 426px;
+	right: 0px;
+	top: 10px;
+	
+	background:rgba(255,255,255,0.8) ;
+}
+.noticeBox li{
+	padding-left: 8px;
+}
+.noticeBox ul p{
+	line-height: 38px;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 0 22px;
+    position: relative;
+}
+.noticeA a{
+	display: block;
+	height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+}
+.noticeB li{
+	float: left;
+    width: 70px;
+    text-align: center;
+    padding: 7px 0 0;
+    line-height: 25px;
+}
+.noticeB a{
+	color: #333333;
+}
+.noticeB i{
+	display: block;
+    width: 46px;
+    height: 46px;
+    margin: 0 auto;
+    background: url(../img/icon_common.png) no-repeat;
+    background-position: -3px -177px;
+    position: relative;
+    z-index: 50;
+}
+.i_ico01{ background-position: -3px -177px;}
+.i_ico02{ background-position: -71px -177px;}
+.i_ico03{ background-position: -139px -177px;}
+.i_ico04{ background-position: -207px -177px;}
+.i_ico05{ background-position: -275px -177px;}
+.i_ico06{ background-position: -344px -177px;}
+
+/* 公告  notice end */
+
+/*  banner start */
+.banner{				
+	background: #F2DEDE;
+	color:#F37B1D;
+	font-size: 40px;
+	text-align: center;		
+	height: 451px;	
+	width: 100%;	
+}
+.banner li ,.banner ul {
+	height:100% ;
+	text-align: center;
+}
+.banner img{
+	display: inline-block;
+	height: 100%;
+}
+
+.unslider{
+	position: relative;
+}
+
+.unslider-nav{
+	position: absolute;
+	width: 100%;
+	bottom: 20px;
+	z-index:9999;
+	text-align: center;
+}
+
+.unslider-nav ol li {
+	display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: rgba(255,255,255,.3);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4dffffff',endColorstr='#4dffffff');
+    cursor: pointer;
+}
+.unslider-nav ol li:before{
+	content: "";
+    position: absolute;
+    background: #fff;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+	
+}
+.temaiBox .unslider nav li:before{background: #aaaaaa;}
+.temaiBox .unslider nav .unslider-active:before{background: #333333;}
+
+.unslider-nav ol .unslider-active:before{
+	content: " ";
+    background: #f20707;
+}
+/*  banner end */
+
+
+
+/*   猜你喜欢  yourLike start  */
+.yourlike{
+	height: 360px;
+	margin-top:30px;
+}
+
+.yourlikeul{
+	float: right;
+	width:956px ;
+	height: 360px;
+}
+.yourlikeul li{
+	float: left;
+	width: 239px;
+	height: 360px;
+}
+.yourlikeul li img{
+	width: 235px;
+	height: 360px;
+	margin-left: 4px;
+}
+.yourlist{
+	background: #FFFFFF;
+	height: 360px;
+	width: 242px;
+	float: left;
+	position:relative;	
+}
+.yourlogo{
+	 height: 60px;
+    line-height: 60px;
+    padding: 0 15px;
+    position: relative;
+    top: -9px;
+    left: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #a9d702;
+    display: inline-block;
+}
+.yourlogo i{
+	background: url(../img/icon_common.png) no-repeat;
+	background-position: -434px -192px;
+    height: 9px;
+    width: 4px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -4px;
+}
+.yourlist p {
+	padding: 20px;
+}
+.yourlist p a{
+	float: left;
+	height: 33px;
+	line-height: 32px;
+	color: #000000;
+	padding: 0 10px;
+}
+.yourlist p .color2{
+	color: #a9d702;
+}
+.yourupdata{
+	position: absolute;
+	clear: both;
+	display: block;
+	color: #555555;
+	height: 25px;
+	line-height: 24px;
+	text-align: center;
+	width: 69px;
+	background: ##fff;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -35px ;
+	border: 1px solid #d8dcdd;
+}
+.yourupdata:hover{
+	background: #e55656;
+}
+.yourupdata i{
+	position: absolute;
+	display: block;
+    top: 2px;
+    left: 4px;
+    width: 18px;
+    height: 18px;
+    transform: rotate(0deg);
+	background: url(../img/bntIcon.png) no-repeat -202px 1px;
+}    
+/*   猜你喜欢  yourLike end  */
+
+/*  随机推荐商品 suiji start */
+.suiji{
+	height: 282px;
+	margin-top: 4px;
+	background: #FFFFFF;
+}
+.suiji li{
+	float: left;
+	margin: 16px 0 0 5px;
+    width: 234px;
+    height: 260px;
+
+}
+
+.suiji li img{
+	height: 180px;
+	width: 180px;
+	display: block;
+	margin: 0 auto;
+}
+.suiji li p{
+	font-family: '微软雅黑','黑体';
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 20px;
+    height: 33px;
+    overflow: hidden;
+}
+.suiji li p a{
+	color:#555;
+}
+.suiji li .text{
+	color: #929292;
+    font-family: '微软雅黑','黑体';
+    font-size: 14px;
+    margin-top: 5px;
+    width: 200px;
+    margin-left: 20px;
+}
+.suiji li .text em{
+	color: #C00;
+    font-weight: 600;
+}
+/*  随机推荐商品 suiji end */
+
+/*  热门品牌  brands  start   */
+.brands .btOne{
+	margin: 37px 0 10px;
+}
+.btOne h3{
+	height: 32px;
+	margin: 37px 0 10px;
+	font-size: 22px;
+	font-weight: 600;
+	color: #333;
+}
+.btOne span{
+	color: #999;
+	font-weight: 100;
+}
+.brands{
+	height:404px ;
+	
+}
+.brands ul{
+	border: 1px solid #eaeaea;
+    background: #fff;
+    height: 360px;
+    width: 1200px;
+}
+.brands li{
+	float:left;
+	position: relative;
+	text-align: center;
+	height: 360px;
+	width: 239px;
+	border-right: 1px solid #eaeaea;
+	
+}
+.brands li div{
+	height: 239px;
+	width: 239px;
+	position: relative;	
+}
+.brands li .img0{
+	width: 239px;
+	height: 100%;
+	
+}
+.brands li .img1{
+	width: 239px;
+	height: 239px;
+	display: inline;
+
+}
+.brands li .img2{
+    position: absolute;
+    left: 50%;
+    margin: 0 0 -40px -40px;
+    width: 78px;
+    height: 26px;
+    background: #fff;
+    padding: 26px 0;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #eaeaea;
+    bottom: 0;
+    display: block;
+
+}
+.brands li h3{
+	font-size: 16px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #333333;
+    margin-top:54px
+}
+.brands li p{
+	margin: 0 15px;
+    color: #333333;
+    font-size: 14px;
+}
+/*  热门品牌  brands  end   */
+
+
+
+/*      地方特色  tese  start   louceng 楼层的公共样式     */
+.tese{
+	height: 597px;
+	margin-top:30px ;
+}
+.teseL{
+	float: left;
+	height: 543px;
+	width: 240px;
+	background: #FFFFFF;
+}
+.teseR{
+	float: right;
+	height: 545px;
+	width: 956px;
+}
+.tesenav{
+	background: #FFFFff;
+	height: 50px;
+    border-bottom: 1px solid #ededed;
+}
+.tesenav li{
+	margin-top: 0;
+    font-size: 12px;
+    line-height: 100%;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+ 	float: left;
+}
+
+.tesenav li i{
+	display: inline-block;
+    margin:0 10px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #666;
+    margin-top: 17px;
+    cursor: pointer;
+    float: left;
+}
+.tesebanner , .teseR .unslider{
+	width: 349px;
+    height: 488px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 4px;
+}
+.tesecon{
+	float: right;
+	height: 495px;
+	width: 604px;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+.teseitem1{
+	height: 495px;
+	width: 604px;
+	background: #FFFFFF;
+}
+.teseitem1 li{
+	float: left;
+	text-align:center;
+	width: 190px;
+	padding: 0 5px;
+	height: 248px;
+	border-left: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	transition: all .5s;
+
+}
+.teseitem1 h3{
+	height: 30px;
+	width: 160px;
+	margin: 0 auto;
+	padding:10px  0 0;
+	color: #555555;
+}
+.teseitem1 p{
+	margin: 0 auto;
+	height: 30px;
+	width: 160px;
+	color: #FF5555;
+}
+.teseitem1 p del{
+	color: #737373;
+}
+.teseitem1 img{
+	width: 160px;
+	display: inline-block;
+	line-height: 160px;
+}
+.teseB{
+    clear: both;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    height: 50px;
+    margin-top: 1px;
+    float: left;
+}
+.teseB a{
+	display: block;
+	float: left;
+	height:30px ;
+	width: 101px;
+	border-right: dotted 1px #ddd;
+	padding: 0 9px;
+	margin: 10px 0 0;
+	background-size: contain;
+}
+.teseB a img{
+	width: 100px;line-height: 100%;display: inline-block;
+}
+/*  public */
+.spTuijianlist{
+	background: #FFFFFF;
+	width: 240px;
+	float: left;
+	position:relative;	
+}
+.spTuijianlist p {
+	padding: 0 20px;
+}
+.spTuijianlist p a{
+	float: left;
+	height: 33px;
+	line-height: 32px;
+	padding: 0 15px;
+}
+.spTuijianlogo{
+	height: 60px;
+    line-height: 60px;
+    padding: 0 15px;
+    position: relative;
+    top: -9px;
+    left: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #a9d702;
+    display: inline-block;
+}
+.spTuijianlogo i{
+	background: url(../img/icon_common.png) no-repeat;
+	background-position: -434px -192px;
+    height: 9px;
+    width: 4px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -4px;
+}
+.spTuijian1{
+	margin: 5%;
+	width: 90%;
+	clear: both;
+	float: left;
+}
+.spTuijian1 .li{
+	border-top: 1px solid #DDDDDD;
+	margin-top: 10px;
+	padding: 10px 0;
+}
+.spTuijian1 .li a{
+	color: #666666;
+	line-height: 28px;
+	height: 28px;
+	display: block;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.spTuijian1 .li a i{
+	display: inline-block;
+	height: 8px;
+	width: 8px;
+	margin:0 5px 0 15px;
+	/*background: #F20707;*/
+	border-radius: 50%;
+}
+.spTuijian1 img{
+	clear: both;
+}
+.color0{
+	color: #000000;
+}
+.color2{
+	color: #a9d702;
+}
+.color1{
+	color: #01c4bd;
+}
+/*      地方特色  tese  end   louceng 楼层的公共样式    */
+/*louceng color start */
+.linglou .spTuijianlogo ,.linglou .spTuijian1 .li i,.linglou .tesenav .current i{  background: #01c4bd; }
+.linglou .tesenav .current,.linglou .color1{color:#01c4bd;}
+.yilou .spTuijianlogo,.yilou .spTuijian1 .li i,.yilou .tesenav .current i{  background: #fa0404; }
+.yilou .color1 ,.yilou .tesenav .current{color: #FA0404;}
+.erlou .spTuijianlogo ,.erlou .spTuijian1 .li i,.erlou .tesenav .current i{  background: #ff7373; }
+.erlou .color1 ,.erlou .tesenav .current{color: #FF7373;}
+.sanlou .spTuijianlogo ,.sanlou .spTuijian1 .li i,.sanlou .tesenav .current i{  background: #ff9901; }
+.sanlou .color1 ,.sanlou .tesenav .current{color: #FF9901;}
+.silou .spTuijianlogo ,.silou .spTuijian1 .li i,.silou .tesenav .current i{  background: #aed55a; }
+.silou .color1 ,.silou .tesenav .current{color: #AED55A;}
+.wulou .spTuijianlogo ,.wulou .spTuijian1 .li i,.wulou .tesenav .current i{  background: #61b3ff; }
+.wulou .color1 ,.wulou .tesenav .current{color: #61B3FF;}
+.liulou .spTuijianlogo ,.liulou .spTuijian1 .li i,.liulou .tesenav .current i{  background: #c912fe; }
+.liulou .color1 ,.liulou .tesenav .current{color:#C912FE;}
+.qilou .spTuijianlogo ,.qilou .spTuijian1 .li i,.qilou .tesenav .current i{  background: #9e652b; }
+.qilou .color1 ,.qilou .tesenav .current{color: #9E652B;}
+/*louceng color end */
+
+
+
+
+/* 特卖  temai start */
+
+.temaiBox{
+	height: 364px;
+	padding: 30px 0;
+}
+ .bt2{
+	height: 20px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+}
+ .bt2 hr{
+	background: #DDD;
+	top:9px;
+	border: 0;
+	height: 1px;
+	width: 100%;
+	position: absolute;
+}
+ .bt2 h3{
+	position: absolute;
+	height: 20px;
+	top:5px;
+	line-height: 18px;
+    font-size: 18px;
+    width: 100%;
+    z-index: 999;
+}
+ .bt2 span{	
+    background: #fff;
+    padding: 0 10px;    
+    font-family: arial,"Microsoft YaHei";
+    color: #000;
+    display: inline-block;
+}
+.temai{
+    background: #fff;
+    padding: 20px;
+    zoom: 1;
+    margin-right: 20px;
+    float: left;	
+    height: 300px;
+    width: 239px;
+}
+
+.temailist , .temailist ul {
+	height: 298px;
+}
+.temaiBox .unslider{
+	overflow: visible;
+	float: left;
+}
+.temaiBox  .fengqiang .unslider nav{
+	bottom: -40px;
+}
+.temaiBox .unslider nav{
+	bottom: -30px;
+}
+.temailist li{
+	width: 239px;
+	height: 298px;
+}
+.temailist .box{
+	height: 88px;
+	width: 240px;
+	position: relative;
+	padding-top: 210px;
+	background-color: #FFF;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.temailist .box img{
+	position: absolute;
+	height:185px ;
+	width: 185px;
+	left:27px;
+	top:20px;
+}
+.temailist .box .qiang{
+	height: 30px;
+	width: 100%;
+	background: rgba(0,0,0,.35);
+}
+.temailist .box .qiang span{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    line-height: 24px;
+    display: block;
+    height: 24px;
+    float: left;
+    margin: 3px 0 auto 12px;
+}
+.temailist .box .qiang a{
+	font-weight: 600;
+    color: #FFF;
+    background-color: #f30;
+    line-height: 20px;
+    text-align: center;
+    width: 54px;
+    height: 22px;
+    float: right;
+    margin: 5px 5px auto auto;
+}
+.temailist .box .bt{
+	text-align: center;	
+	color: #333;
+	height: 30px;
+	line-height: 30px;
+}
+.temailist .box .time{
+	height: 20px;
+	line-height: 20px;
+	color: #333333;
+	padding: 0 10px;
+}
+.temailist .box .time em{
+	font-weight: 600;
+    color: #E72551;
+    margin-left: 2px;
+}
+.temailist .box .timeRemain{
+	float: right;
+}
+.fengqiang{
+    background: #fff;
+    padding: 20px;
+    zoom: 1;
+    margin-right: 20px;
+    float: left;
+    height: 300px;
+}
+.fengqiang .left{
+	float: left;
+	width: 275px;
+	height: 300px;
+}
+.fengqiang .left img{
+	height: 135px;
+	margin-top:10px ;
+	display: block;
+}
+.fengqiang .right{
+	float: left;
+	width:216px;
+}
+.fengqiang .right li{
+	position: relative;
+}
+ .fengqiang .right .tiem{
+ 	margin:5px 0;
+	width: 210px;
+	height: 16px;
+	line-height: 20px;
+	text-align: center;
+}
+.fengqiang .right .tiem i{
+	background: url(../img/home_bg.png) no-repeat -40px -60px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-right: 4px;
+}
+.fengqiang .right .tiem em{
+	font-weight: 600;
+	color: #555555;
+	margin: 0 2px;
+}
+.fengqiang .right img{
+	width: 210px;
+	height: 210px;
+}
+.fengqiang .right .priceCount{
+	position: absolute;
+	text-align: ccenter;
+	right: 2px;
+	bottom: 20px;
+	height: 68px;
+	width: 48px;
+	background: url(../img/home_bg.png) no-repeat -100px -100px;
+}
+.fengqiang .right .priceCount em{
+	line-height: 68px;
+	font-size: 16px;
+	color: #F8F8F8;
+}
+.fengqiang .right .price{
+	height: 30px;
+	line-height: 30px;
+	padding: 0 	15px ;
+}
+.fengqiang .right .price span{
+	color: #F20707;
+	font: 600 16px/30px Verdana;
+}
+.fengqiang .right .price del{
+	color: #555;
+	font: 100 10px/30px Verdana;
+	padding-left:5px ;
+}
+.fengqiang .right h4{
+	padding: 0 15px;
+	color: #555555;
+}
+.shaidan{
+	float: right;
+    background: #fff;
+    padding: 20px;
+    zoom: 1;	
+    height: 300px;
+}
+.shaidanli{
+	width: 300px;
+	height: 256px;
+	margin-top:22px;
+	overflow: hidden;
+}
+.shaidanli ul{
+	position: relative;
+}
+
+.shaidanli .newcur{z-index: 0;}
+.shaidanli .curr{ z-index: 1;}
+.shaidanli .oldcur{z-index: 1; }
+.shaidanli li{
+	position: absolute;
+	top:0px;
+	height: 120px;
+	margin-bottom: 30px;
+	transition: none;
+}
+.shaidanli li img{
+	height: 100px;
+	width: 100px;
+	margin: 10px 0;
+	float: left;
+}
+.shaidanli li .con{
+	
+	height: 120px;
+	float: left;
+	margin: 0 0 0 15px;
+}
+.shaidanli  .con h4{
+	height: 28px;
+	padding:  0 10px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	color: #555555;
+}
+.shaidanli  .con p{
+	position: relative;
+    width: 140px;
+    height: 54px;
+    padding: 10px 15px 10px 20px;
+    background: #f8f8f8;
+    color: #999;
+    overflow: visible;
+}
+.shaidanli  .con p a{
+	color: #555555;
+}
+/* 特卖  temai end */
+
+
+/* lounav  start */
+.lounav{
+	height: 50px;
+	background: #FFFFFF;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	box-shadow: rgba(0,0,0,.2) 0 1px 5px;
+	z-index: 9999;
+	display: none;
+}
+.lounavlogo{
+	float:left;
+	height: 64px;
+	width: 124px;
+	background: url(../img/m-logo.png);	
+}
+.lounav ul{
+	float: left;
+	margin-left: 50px;
+}
+.lounav li{
+	float: left;
+	padding-top:7px;
+}
+.lounav li a{
+	height: 35px;
+	padding: 0 18px;
+	float: left;
+	font-size: 14px;
+	color:#666;
+	line-height: 34px;
+	
+}
+.lounav li .cur{
+	border-radius: 17.5px;
+	background: #a9d702;
+	color: #FFFFFF;
+}
+.lounav li .cur i{
+	background:#FFFFFF;
+	color: #a9d702;
+	
+}
+.lounav li a i{
+	background: #a9d702;
+	height: 20px;
+	width: 20px;
+	line-height: 20px;
+	font-size:14px ;
+	color: #FFFFFF;
+	text-align: center;
+	display: inline-block;
+	border-radius: 50%;
+	margin:0 10px 0 0px;
+}
+/* lounav  end */
+
+/** 记录一些东西  **/
+/*
+ * spTuijianlist 
+ * 
+ * 
+ * 
+ * */ 

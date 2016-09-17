@@ -1,0 +1,263 @@
+/* 购物车 的样式表 */
+.carttop { height: 100px;}
+.goumaijindu{
+    font-size: 0;
+    word-spacing: -1em;
+    width: 640px;
+    height: 70px;
+    float: right;
+    margin: 15px 0;
+}
+.goumaijindu li{
+	height: 70px;
+	width: 160px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.goumaijindu li i{
+    background: #FFF url(../img/buy_step.gif) no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 50%;
+}
+.goumaijindu li .step1{ background-position: 0px 0px;}
+.goumaijindu li .step2{ background-position: -30px 0px;}
+.goumaijindu li .step3{ background-position: -60px 0px;}
+.goumaijindu li .step4{ background-position: -90px 0px;}
+.goumaijindu .current .step1{background-position: 0px -30px;  }
+.goumaijindu .current .step2{background-position: -30px -30px;  }
+.goumaijindu .current .step3{background-position: -60px -30px;  }
+.goumaijindu .current .step4{background-position: -90px -30px;  }
+.goumaijindu .current p{color: #27A9E3;  }
+.goumaijindu .current sub{background-color: #27A9E3;border-color: #27A9E3;box-shadow: 0 0 0 2px rgba(0,153,204,0.15);  }
+.goumaijindu .current .hr{background-color: #27A9E3;  }
+.goumaijindu li p{
+	font: 14px/24px arial,"microsoft yahei";
+    color: #CCC;
+    text-align: center;
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.goumaijindu li sub{
+	background-color: #FFF;
+    width: 5px;
+    height: 5px;
+    margin-left: -3px;
+    border: solid 1px #CCC;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 2;
+    top: 38px;
+    left: 50%;
+}
+.goumaijindu li .hr{
+	background-color: #DDD;
+    width: 100%;
+    height: 1px;
+    border: none 0;
+    position: absolute;
+    z-index: 1;
+    top: 41px;
+    left: 0;
+}
+
+.cartBt{
+	height: 50px;
+    padding: 15px 0;
+    border: solid #F7F7F7;
+    border-width: 1px 0 0;
+    border-bottom: solid 1px #F5F5F5;
+}
+.cartBt h3{
+	font: lighter 24px/30px arial,"microsoft yahei";
+    color: #555;
+}
+.cartBt p{
+    font: 12px/20px arial,"microsoft yahei";
+    color: #AAA;
+}
+
+table{
+	width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.theader{
+	height: 40px;
+	background-color: #FAFAFA;
+}
+.dplist th{
+	line-height: 20px;
+    color: #666;
+    
+    text-align: left;
+    height: 20px;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 14px;
+}
+.dplist{
+	height: 56px;
+}
+tr a{ color: #666666;}
+tr a:hover{color:#FF5555; }
+.item{background-color: #FAFAFA;}
+.item td{
+	background-color: #FAFAFA;
+    vertical-align: top;
+    padding: 8px 10px;
+    text-align: center;
+    border-top: solid 1px #DDD;
+}
+.item .td1{ width:70px ; }
+.item .td2{ width:120px ; }
+.item .td3{ width:450px ; text-align: left; }
+.item .td4{ width:170px ; }
+.item .td5{ width:120px ; }
+.item .td6{ width:170px ; }
+.item .td7{ width:100px ; }
+.item .td2 img{
+	max-width: 80px;
+    max-height: 80px;
+	border: 1px solid #F9F9F9;
+    vertical-align: middle;
+} 
+.item .td3 p{ line-height: 24px;}
+.item .td3 img{
+letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 2px 4px 2px 0;
+}
+.item .td4 .price{
+	font-family: Tahoma;
+    font-weight: 600;
+    color: #333;
+    line-height: 24px;
+    display: block;
+}
+.item .td4 .huodong{
+	display: inline-block;
+    width: 80px;
+    height: 26px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+	
+	
+   
+}
+.item .td4 .huodong span{
+	display: block;
+	line-height: 24px;
+    color: #F40;
+    background-color: #FFF0E7;
+    text-align: center;
+    width: 80px;
+    height: 24px;
+    border: solid 1px #FFE1D3;
+}
+.item .td4 .huodong div{
+	background-color: #FFF;
+    text-align: left;
+    display: none;
+    padding: 9px;
+    border: solid 1px #DDD;
+    position: absolute;
+    z-index: 1;
+    top: 26px;
+    left: 0;
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.1);
+}
+.item .td4 .huodong:hover div{display: block;}
+.item .td4 .huodong div p{
+    line-height: 24px;
+    color: #555;
+    white-space: nowrap;
+}
+.item .td4 .huodong div strong{
+    margin: 0 2px;
+    color: #333;
+}
+.item .td5 a{
+    font: 14px/30px Tahoma,Arial;
+    color: #555;
+    text-decoration: none;
+    background-color: #F5F5F5;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    width: 26px;
+    height: 30px;
+    margin: 0;
+    cursor: pointer;
+}
+.item .td5 input{
+	
+	width: 20px;
+	font: 12px/20px Arial;
+    color: #777;
+    background-color: #FFF;
+    vertical-align: top;
+    display: inline-block;
+    height: 20px;
+    padding: 4px;
+    border: solid 1px #E6E9EE;
+    outline: 0 none;
+    text-align: center;
+}
+
+.item .td6{
+    font-family: Verdana,Tahoma,arial;
+    color: #F40;
+    font-weight: 600;
+    line-height: 24px;
+    display: block;
+}
+.item .td7{
+	text-align: left;
+}
+.item .td7 a{ padding-left:10px;color: #333;}
+
+.tfooter{ padding: 15px 0; height: 40px;}
+.tfooter td{
+	height: 40px;
+	margin: 20px 0;
+	text-align: right;
+	background: #FAFAFA;
+}
+.tfooter span{
+    font-size: 22px;
+    line-height: 40px;
+    font-family: Tahoma,arial;
+    color: #F32613;
+    margin: 0 4px;
+}
+.tfooter a{
+	padding: 0 15px;
+	background: #F32613;
+	color: #FFFFFF;
+	line-height: 40px;
+	font-size: 20px;
+	height: 40px;
+	display: inline-block;
+}
+.tfooter .noquren{
+	background: #AAAAAA;
+	color: #CCCCCC;
+}
+.kongbai td{height: 10px;}

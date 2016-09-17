@@ -1,0 +1,40 @@
+
+<!-- 删除提示框	 -->
+<div id="myModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">真的要删除吗？</h4>
+      </div>
+      <div class="modal-body">
+        <p>点击确定将删除</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary">删除</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<form class="form-horizontal" style="padding-top: 50px;" role="form">
+	<input type="hidden" name="spid" id="spid" value="new" >
+	<div class="form-group" id="addsptype">
+		<div class="col-sm-offset-1 col-sm-1">
+	      	<button type="buttonSp" class="btn btn-default">查询</button>
+		</div>
+		 <label class="col-sm-1 control-label" >选择分类</label>
+	</div>	
+</form>
+
+
+<table id="sptb" class="table table-striped">
+	<tr><th> # </th> <th> 商品名称</th> <th>价格</th> <th>操作</th> </tr>	
+</table>
+
+<script src="../public/js/admin/function.js" type="text/javascript" charset="utf-8"></script>
+<script src="../public/js/admin/typelist.js" type="text/javascript" charset="utf-8"></script>
+<script src="../public/js/admin/sp.js" type="text/javascript" charset="utf-8"></script>
+

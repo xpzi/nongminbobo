@@ -1,0 +1,189 @@
+{
+	"Id":"010",
+	"Data":
+	{
+		"nav":{
+			"title":"推   地方特色馆",
+			"list" : [{ "label":"1" , "name": "东北地区"},{ "label":"0" , "name": "华北地区"},
+				{ "label":"0" , "name": "华中地区"},{ "label":"1" , "name": "华东地区"},
+				{"label":"0","name":"华南地区"},{ "label":"0" , "name": "西北地区"},
+				{"label":"1" , "name": "西南地区"},{ "label":"0" , "name": "直辖市"},
+				{ "label":"0","name":"国外特色馆"}],
+			"ul":{
+				"list":[" 湘西黑猪腊肉惊爆价198元/盒","纯山林放养土鸡蛋，包邮15枚，仅35元","印尼进口燕窝7折开抢"],
+				"imgsrc":"http://img.nongminbb.com//shop/editor/web-8-83.jpg?455"
+			}
+		},
+		"banner":[
+			"http://img.nongminbb.com//shop/editor/web-8-88-2.jpg?723",
+			"http://img.nongminbb.com//shop/editor/web-8-88-1.jpg?421"
+		],
+		"content":[{
+			"title":"祁东特产",
+			"data":[{
+				"name":"湖南特产 农家自制柴火腊",
+				"price":"30.00",
+				"marprice":"40.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/113/2015/12/09/113_05029911348828134_240.png"
+			},{
+				"name":"正宗湖南祁东农家自制",
+				"price":"35.00",
+				"marprice":"45.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/217/2016/03/30/217_05126711088477379_240.jpg"
+			},{
+				"name":"湖北特产武汉热干面大汉",
+				"price":"35.00",
+				"marprice":"45.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/4/2016/03/30/4_05126715331199434_240.jpg"
+			},{
+				"name":"湖南特产火宫殿正宗长",
+				"price":"35.00",
+				"marprice":"59.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/4/2016/03/30/4_05126718991407386_240.jpg"
+			},{
+				"name":"州特产麻辣霉豆腐豆",
+				"price":"15.90",
+				"marprice":"20.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/4/2016/03/30/4_05126727613643320_240.jpg"
+			},{
+				"name":"正宗湖南祁东农家自制",
+				"price":"49.00",
+				"marprice":"54.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/217/2016/03/30/217_05126693397715877_240.jpg"
+			}]
+			
+		},{
+			"title":"商品推荐",
+			"data":[{
+				"name":"祁东糍粑",
+				"price":"8.00",
+				"marprice":"10.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/126/2016/03/18/126_05116095585023364_240.jpg"
+			},{
+				"name":"农家手工制作剁辣椒",
+				"price":"14.80",
+				"marprice":"18.80",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/218/2016/05/18/218_05168959920148734_240.jpg"
+			},{
+				"name":"湖南后腿腊肉 湖南特产",
+				"price":"38.00",
+				"marprice":"50.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/218/2016/04/02/218_05129468637667943_240.jpg"
+			},{
+				"name":"葡记 蒸蛋糕 蒸奶香蛋",
+				"price":"39.00",
+				"marprice":"45.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/4/2016/04/01/4_05128205522992111_240.png"
+			},{
+				"name":"【新货到啦】卤汁牦牛",
+				"price":"38.00",
+				"marprice":"45.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/4/2016/04/01/4_05128209586740760_240.jpg"
+			},{
+				"name":"湖南祁东农家土特产自",
+				"price":"13.80",
+				"marprice":"28.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/226/2016/05/30/226_05179252393364497_240.jpg"
+			}]
+			
+		},{
+			"title":"热门产品",
+			"data":[{
+				"name":"吉林特色馆 吉林特产",
+				"price":"45.00",
+				"marprice":"90.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png"
+			},{
+				"name":"大槐树 山西特产陈醋醋",
+				"price":"20.00",
+				"marprice":"23.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046156124631028_240.png"
+			},{
+				"name":"湖南特产火宫殿正宗长",
+				"price":"35.00",
+				"marprice":"59.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/160/2016/01/07/160_05054763030233869_240.jpg"
+			},{
+				"name":"黄山浙江梅干菜绍兴土",
+				"price":"9.20",
+				"marprice":"10.90",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/160/2016/01/07/160_05054895226362777_240.jpg"
+			},{
+				"name":"山东特产周村香酥烧饼",
+				"price":"27.80",
+				"marprice":"42.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/160/2016/01/07/160_05054808899033984_240.jpg"
+			},{
+				"name":"2016新茶油农家自榨1",
+				"price":"45.00",
+				"marprice":"80.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/141/2016/01/04/141_05052567640826925_240.jpg"
+			}]
+			
+		},{
+			"title":"销量排行",
+			"data":[{
+				"name":"湖南特产 农家自制柴火",
+				"price":"30.00",
+				"marprice":"40.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/113/2015/12/09/113_05029911348828134_240.png"
+			},{
+				"name":"红心软片500g 红薯干",
+				"price":"26.80",
+				"marprice":"29.90",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/4/2016/05/05/4_05157610543828264_240.jpg"
+			},{
+				"name":"农家特色自种黄花菜正",
+				"price":"45.00",
+				"marprice":"80.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/4/2016/03/30/4_05126727613643320_240.jpg"
+			},{
+				"name":"祁东特产 农家自制 ",
+				"price":"26.00",
+				"marprice":"22.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/217/2016/03/30/217_05126711088477379_240.jpg"
+			},{
+				"name":"湖南祁东特产农家自制",
+				"price":"18.80",
+				"marprice":"25.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/217/2016/03/30/217_05126750314431499_240.jpg"
+			},{
+				"name":"纯天然成熟祁东百花蜂",
+				"price":"80.00",
+				"marprice":"80.00",
+				"showpic":"http://img.nongminbb.com//shop/store/goods/226/2016/05/30/226_05179232096744569_240.jpg"
+			}]			
+		}],		
+		"logo":[{
+			"src":"http://img.nongminbb.com//shop/brand/05022135760990129_sm.png",
+			"name":"新希望"
+		},{
+			"src":"http://img.nongminbb.com//shop/brand/04399903404912119_sm.jpg",
+			"name":""
+		},{
+			"src":"http://img.nongminbb.com//shop/brand/04399902780394855_sm.jpg",
+			"name":""
+		},{
+			"src":"http://img.nongminbb.com//shop/brand/04399902896835151_sm.jpg",
+			"name":""
+		},{
+			"src":"http://img.nongminbb.com//shop/brand/04399903024936544_sm.jpg",
+			"name":""
+		},{
+			"src":"http://img.nongminbb.com//shop/brand/04399903153847612_sm.jpg",
+			"name":""
+		},{
+			"src":"http://img.nongminbb.com//shop/brand/04399903259361371_sm.jpg",
+			"name":""
+		},{
+			"src":"http://img.nongminbb.com//shop/brand/04399893596931049_sm.jpg",
+			"name":""
+		},{
+			"src":"http://img.nongminbb.com//shop/brand/04399902137097199_sm.jpg",
+			"name":""
+		},{
+			"src":"http://img.nongminbb.com//shop/brand/05016282664016601_small.jpg",
+			"name":""
+		}]
+	}
+}

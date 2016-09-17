@@ -1,0 +1,28 @@
+{
+	"Id":"010",
+	"Data":{
+		"nav":{
+			"title":"qqqq",
+			"list" : ["0 "," 00"],
+			"ul":{
+				"color":"#01c4bd",
+				"list":["0 "," 00"],
+				"imgsrc":"000"
+			}
+		},
+		"banner":[
+			"000",
+			"000"
+		],
+		"content":[{
+			"title":"aaaa",
+			"data":[{
+				"name":"aaaaa",
+				"price":"000",
+				"marprice":"000",
+				"showpic":"000"
+			}]
+			
+		}]
+	}
+}

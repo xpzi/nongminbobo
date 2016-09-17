@@ -1,0 +1,2282 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>农民伯伯首页</title>
+		
+		<link rel="stylesheet" type="text/css" href="public/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="public/css/reset.css"/>
+		<link rel="stylesheet" href="public/css/index.css" />
+		<script src="public/js/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>	
+		
+		<!-- top  : 最上面的对数布局结构 -->
+		<div class="topBox">
+		<div class="top">
+		
+			<!-- 左侧 -->
+			<div class="topLeft">
+				<div class="welcome"> 
+					<span>您好，欢迎来到 </span>
+					<a href="#">农民伯伯</a>
+				</div>
+				<div class="other">
+					<i class="qq"></i>
+					<i class="xl"></i>
+					<i class="wx"></i>
+				</div>
+				<div id="login">
+					[<a href="#" class="login">登录</a>]
+					[<a href="#" class="refister">注册</a>]
+				</div>
+			</div>
+			
+			
+			<!--  右侧  -->
+			<div class="topRight">
+				<div class="guanzhu">
+					
+					<div class="div1">
+						<em class="weixin"></em>
+					关注我们<i></i>
+					</div>
+					<div class="shangjiaDiv">													
+						<p>扫描二维码<br />关注商城微信号</p>
+						<img src="public/img/a147439613256212.jpg"/>
+					</div>
+				</div>
+				<ul>
+					<li>
+						<div class="div1">
+							<em class="tel_top"></em>移动端<i></i>
+						</div>						
+						<div class="telDiv">
+							<img src="public/img/mb_app.png" alt="" />
+							<p class="er">扫描二维码</p>
+							<p class="dow">下载手机客户端</p>
+							<a href="#">android</a>
+							<a href="#">iPhone</a>
+						</div>
+					</li>
+					<li>
+						<div class="div1">
+							<em class="shangjia_top"></em>商家管理<i></i>
+						</div>
+						<div class="shangjiaDiv">													
+							<a href="#">商家入驻</a>
+							<a href="#">商家登录</a>
+						</div>
+					</li>
+					<li>
+						<div class="div1">
+							<em class="dindan_top"></em>我的订单<i></i>
+						</div>
+						<div class="shangjiaDiv">													
+							<a href="#">待付款订单</a>
+							<a href="#">待确认收货</a>
+							<a href="#">待评价交易</a>
+						</div>
+					</li>
+					<li>
+						<div class="div1">
+							<em class="shoucang_top"></em>我的收藏<i></i>
+						</div>
+						<div class="shangjiaDiv">													
+							<a href="#">商品收藏</a>
+							<a href="#">店铺收藏</a>
+						</div>
+					</li>
+					<li>
+						<div class="div1">
+							<em class="kefu_top"></em>客服服务<i></i>
+						</div>
+						<div class="shangjiaDiv">													
+							<a href="#">帮助中心</a>
+							<a href="#">售后服务</a>
+							<a href="#">服务中心</a>
+						</div>
+					</li>
+					<li>
+						<div class="div1">
+							站点导航<i></i>
+						</div>
+						<div class="shangjiaDiv">													
+							<a href="#">积分中心</a>
+							<a href="#">店铺大全</a>
+							<a href="#">品牌直达</a>
+						</div>
+					</li>
+				</ul>				
+			</div>
+		</div>
+		</div>
+		
+		<!-- header  start-->
+		<div class="header wrap">
+			<div class="logo">
+				<h1>
+					<a href="#"> <img src="public/img/05126761563505684.png" alt="" /> </a>
+				</h1>
+			</div>
+			<div class="logoTest">
+				尝遍家乡味
+			</div>
+			
+			<div class="logoform">
+				<form >
+					<div class="serachTab">
+						<ul >
+							<li>商品 &nbsp;<i></i></li>
+							<li>店铺</li>
+						</ul>
+					</div>
+					<input name="act" id="search_act" value="search" type="hidden">
+					<input name="keyword" id="keyword" type="text" class="input-text ui-autocomplete-input" value="" maxlength="60"  placeholder="请输入您要搜索的商品关键字" >
+					<input type="submit" id="button" value="搜索" class="input-submit">
+				</form>
+				<div class="keyword">
+					<ul>
+						<li><a href="http://www.nongminbb.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E5%86%9C%E6%B0%91%E4%BC%AF%E4%BC%AF%E7%9B%B4%E8%90%A5%E5%BA%97">农民伯伯直营店</a></li>
+						<li><a href="http://www.nongminbb.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E5%86%85%E8%A1%A3">内衣</a></li>
+						<li><a href="http://www.nongminbb.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E7%AC%94%E8%AE%B0%E6%9C%AC">笔记本</a></li>
+						<li><a href="http://www.nongminbb.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E6%89%8B%E6%9C%BA">手机</a></li>
+						<li><a href="http://www.nongminbb.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E7%A7%8D%E5%AD%90">种子</a></li>
+						<li><a href="http://www.nongminbb.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E5%8C%96%E8%82%A5">化肥</a></li>
+						<li><a href="http://www.nongminbb.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E6%B4%97%E5%8F%91%E6%B0%B4">洗发水</a></li>
+						<li><a href="http://www.nongminbb.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E7%94%B5%E8%A7%86">电视</a></li>
+						<li><a href="http://www.nongminbb.com/shop/index.php?act=search&amp;op=index&amp;keyword=%E5%86%B0%E7%AE%B1">冰箱</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="mineCart">
+				<i></i>				
+				<em>0</em>
+				<span>购物车</span>
+			</div>						
+		</div>
+		<!-- header  end-->
+		
+		
+		<!-- nav start -->
+		<div class="nav" >
+			<div class="wrap">
+				<div class="all-category">
+					<div class="title"><i></i><h3><a href="http://www.nongminbb.com/shop/category.html">全部商品分类</a></h3></div>
+					<ul class="allList">
+						<li class="curr"> 
+							<div class="bt">
+								<a href="#">地方特色产品</a>
+								<i></i>
+							</div>
+							<ul class="conten">							
+								<li>
+									<div class="bt0">
+										<a href="#">华北地区</a>
+									</div>
+									<div class="con">
+										<a href="#">内蒙古</a>
+										<a href="#">山西</a>
+										<a href="#">河北</a>
+									</div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">东北地区</a></div>
+									<div class="con"><a href="#">黑龙江</a><a href="#">吉林</a><a href="#">辽宁</a></div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">华中地区</a></div>
+									<div class="con"><a href="#">河南</a><a href="#">湖南</a><a href="#">湖北</a><a href="#">江西</a></div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">华东地区</a></div>
+									<div class="con"><a href="#">安徽</a><a href="#"> 福建</a><a href="#">浙江</a><a href="#">山东</a><a href="#">江苏</a><a href="#">台湾</a></div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">华南地区</a></div>
+									<div class="con"><a href="#">广东</a><a href="#"> 海南</a><a href="#">广西</a></div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">西北地区</a></div>
+									<div class="con"><a href="#">陕西</a><a href="#">甘肃</a><a href="#">宁夏</a><a href="#">新疆</a><a href="#">青海</a></div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">西南地区</a></div>
+									<div class="con"><a href="#">贵州</a><a href="#">四川</a><a href="#">云南</a><a href="#">西藏</a></div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">直辖市</a></div>
+									<div class="con">
+										<a href="#">北京</a>
+										<a href="#">上海</a>
+										<a href="#">重庆</a>
+										<a href="#">天津</a>
+										<a href="#">香港</a>
+										<a href="#">澳门</a>
+									</div>
+								</li>								
+								<li>
+									<div class="bt0"><a href="#">国外特色馆</a></div>
+									<div class="con"><a href="#">美国</a><a href="#">印度</a><a href="#">意大利</a><a href="#">日本</a><a href="#">俄罗斯</a><a href="#">德国</a><a href="#">澳大利亚</a><a href="#">法国</a><a href="#">新西兰</a><a href="#">韩国</a><a href="#">泰国</a><a href="#">澳大利亚</a><a href="#">越南</a><a href="#">缅甸</a><a href="#">其他国家</a></div>
+								</li>								
+							</ul>
+						</li>
+						<li class="curr">
+							<div class="bt">
+								<a href="#">地方特色产品</a>
+								<i></i>
+							</div>
+							<ul class="conten">							
+								<li>
+									<div class="bt0">
+										<a href="#">华北地区</a>
+									</div>
+									<div class="con">
+										<a href="#">内蒙古</a>
+										<a href="#">山西</a>
+										<a href="#">河北</a>
+									</div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">东北地区</a></div>
+									<div class="con"><a href="#">黑龙江</a><a href="#">吉林</a><a href="#">辽宁</a></div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">华中地区</a></div>
+									<div class="con"><a href="#">河南</a><a href="#">湖南</a><a href="#">湖北</a><a href="#">江西</a></div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">华东地区</a></div>
+									<div class="con"><a href="#">安徽</a><a href="#"> 福建</a><a href="#">浙江</a><a href="#">山东</a><a href="#">江苏</a><a href="#">台湾</a></div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">华南地区</a></div>
+									<div class="con"><a href="#">广东</a><a href="#"> 海南</a><a href="#">广西</a></div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">西北地区</a></div>
+									<div class="con"><a href="#">陕西</a><a href="#">甘肃</a><a href="#">宁夏</a><a href="#">新疆</a><a href="#">青海</a></div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">西南地区</a></div>
+									<div class="con"><a href="#">贵州</a><a href="#">四川</a><a href="#">云南</a><a href="#">西藏</a></div>
+								</li>
+								<li>
+									<div class="bt0"><a href="#">直辖市</a></div>
+									<div class="con">
+										<a href="#">北京</a>
+										<a href="#">上海</a>
+										<a href="#">重庆</a>
+										<a href="#">天津</a>
+										<a href="#">香港</a>
+										<a href="#">澳门</a>
+									</div>
+								</li>								
+								<li>
+									<div class="bt0"><a href="#">国外特色馆</a></div>
+									<div class="con"><a href="#">美国</a><a href="#">印度</a><a href="#">意大利</a><a href="#">日本</a><a href="#">俄罗斯</a><a href="#">德国</a><a href="#">澳大利亚</a><a href="#">法国</a><a href="#">新西兰</a><a href="#">韩国</a><a href="#">泰国</a><a href="#">澳大利亚</a><a href="#">越南</a><a href="#">缅甸</a><a href="#">其他国家</a></div>
+								</li>								
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+				<ul class="siteNav">
+					<li><a href="#" class="current"><span>首页</span></a></li>
+					<li class="nav-re"><a href="#"> <span>特卖</span></a></li>
+					<li><a href="#"> <span>品牌</span></a></li>					 
+					<li><a href="#">限时折扣</a></li>
+					<li><a href="#">农村优选</a></li>
+					<li><a target="_blank" href="#">总部直营</a></li>
+					<li><a href="#">地区自营</a></li>
+					<li><a href="#">地方特色馆</a></li>
+					<li><a target="_blank" href="#">缴费站</a></li>
+					<li><a target="_blank" href="#">农民圈</a></li>
+					<li><a target="_blank" href="#">多平台代购</a></li>
+				</ul>			
+			</div>
+		</div>
+		<!-- nav end -->
+		
+	<!-- 首页主要内容 main start -->
+	<div class="mian">
+		
+		<!-- 公告  notice start -->
+		<div class="notice wrap">
+			<div class="noticeBox">
+				<ul class="noticeA">
+					<p >公告</p>
+					<li>
+						<a href="#">【公告】农民伯伯网络学院即将推出</a>
+						<a href="#">【公告】农民伯伯推出多平台代购系统</a>
+						<a href="#">【公告】地区代理与合伙人招募</a>
+						<a href="#">【公告】《中国科学报》采访创始人</a>
+						<a href="#">【公告】湖南日报报道：农民伯伯</a>
+					</li>
+				</ul>
+				<ul class="noticeB">
+					<p>服务特色</p>
+					<li><a href="#"><i class="i_ico01"></i>招商入驻</a></li>
+					<li><a href="#"><i class="i_ico02"></i>招商入驻</a></li>
+					<li><a href="#"><i class="i_ico03"></i>招商入驻</a></li>
+					<li><a href="#"><i class="i_ico04"></i>招商入驻</a></li>
+					<li><a href="#"><i class="i_ico05"></i>招商入驻</a></li>
+					<li><a href="#"><i class="i_ico06"></i>招商入驻</a></li>
+				</ul>
+			</div>			
+		</div>
+		<!-- 公告  notice end -->
+		
+		<!-- banner start -->
+		<!--<link rel="stylesheet" href="public/css/unslider-dots.css" />-->
+		<link rel="stylesheet" href="public/css/unslider.css" />
+		<script src="public/js/unslider-min.js" type="text/javascript" charset="utf-8"></script>
+		<div class="banner">
+			<ul>
+				<li><img src="public/img/9k=.jpg" alt="" /></li>
+				<li><img src="public/img/web-101-101-1.jpg" alt="" /></li>
+				<li><img src="public/img/web-101-101-2.png" alt="" /></li>
+				<li><img src="public/img/web-101-101-3.jpg" alt="" /></li>
+				<li><img src="public/img/web-101-101-4.jpg" alt="" /></li>
+			</ul>
+		</div>
+		<!-- banner 动画 -->
+		<script type="text/javascript">
+			$(document).ready(function($) {			
+					
+				var slider= $('.banner').unslider({
+					autoplay:true	,
+					animation: 'fade',
+					arrows:false,
+					infinite:false,
+					delay:3000
+				});
+			});
+		</script>
+		<!-- banner end -->
+		
+		
+		
+		<!-- 猜你喜欢  yourLike start   -->
+		<div class="yourlike wrap">
+			<ul class="yourlikeul">
+				<li> <a href=""><img src="http://img.nongminbb.com//shop/editor/web-101-102-2-1.png?255" alt="" /></a></li>
+				<li> <a href=""><img src="http://img.nongminbb.com//shop/editor/web-101-102-2-2.png?914" alt="" /></a></li>
+				<li> <a href=""><img src="http://img.nongminbb.com//shop/editor/web-101-102-2-3.png?581" alt="" /></a></li>
+				<li> <a href=""><img src="http://img.nongminbb.com//shop/editor/web-101-102-2-4.png?777" alt="" /></a></li>
+				
+			</ul>
+			<div class="yourlist">
+				<a href="#" class="yourlogo">猜你喜欢<i></i></a>
+				<p>
+					<a href="#" >荣生堂高档补品</a>
+					<a href="#">儿童用品汇</a>
+					<a href="" class="color2">湘西黑猪腊肉</a>
+					<a href="#">吃货节之零食</a> 
+					<a href="" class="color2">降三高健康白酒</a>
+					<a href="#">优质黄花菜</a> 
+					<a href="#">绿色土鸡蛋</a> 
+					<a href="" class="color2">祁东特产</a>
+				</p>
+				<a href="#" class="yourupdata">
+					<i style=""></i>
+					换一换
+				</a>
+			</div>
+		</div>
+		<!-- 猜你喜欢  yourLike end   -->
+		
+		<!-- 随机推荐商品 suiji start -->
+		<div class="suiji wrap">	
+			<ul>
+				<li>
+					<a href="#"> <img src="http://img.nongminbb.com//shop/store/goods/718/2016/06/23/718_05200174170770154_240.jpg" alt="" /> </a>
+					<p><a href="$">英德红茶英红九号英玖红热卖红茶茶叶礼盒装广东养胃红茶茶叶</a></p>
+					<div class="text">商城价：<em>¥28.00</em> </div>
+				</li>
+				<li>
+					<a href="#"> <img src="http://img.nongminbb.com//shop/store/goods/150/2015/12/23/150_05041975068309971_240.jpg" alt="" /> </a>
+					<p><a href="$">新生儿婴儿宝宝奶瓶</a></p>
+					<div class="text">商城价：<em>¥35.00</em> </div>
+				</li>
+				<li>
+					<a href="#"> <img src="http://img.nongminbb.com//shop/store/goods/4/2016/03/30/4_05126718991407386_240.jpg" alt="" /> </a>
+					<p><a href="$">湖南特产火宫殿正宗长沙臭豆腐礼盒包邮臭豆干子麻辣休闲零食26包</a></p>
+					<div class="text">商城价：<em>¥35.00</em> </div>
+				</li>
+				<li>
+					<a href="#"> <img src="http://img.nongminbb.com//shop/store/goods/4/2016/03/11/4_05110239207427734_240.jpg" alt="" /> </a>
+					<p><a href="$">富绿康生态土鸡蛋 农家散养土鸡蛋 15枚</a></p>
+					<div class="text">商城价：<em>¥32.00</em> </div>
+				</li>
+				<li>
+					<a href="#"> <img src="http://img.nongminbb.com//shop/store/goods/4/2016/02/29/4_05100760018665802_240.jpg" alt="" /> </a>
+					<p><a href="$">珍玖源 伊朗藏红花3克 精选西红花 番红花 特级正品藏红花</a></p>
+					<div class="text">商城价：<em>¥119.00</em> </div>
+				</li>
+			</ul>
+			
+		</div>
+		<!-- 随机推荐商品 suiji end -->
+		
+		<!-- 热门品牌  brands  start-->
+		<div class="brands wrap">
+			<div class="btOne">
+				<h3>热门品牌  <span>/ BRAND</span></h3>
+			</div>
+			<ul>
+				<li>
+					<a href="#">
+						<div>
+							<img class="img1" src="http://www.nongminbb.com/data/upload/shop/editor/9.jpg" alt="" />
+							<img class="img2" src="http://img.nongminbb.com//shop/brand/05149210617502919_small.jpg" alt="" />
+						</div>
+						<h3>金荞</h3>
+						<p>国家发明专利，纯荞麦酿造，降三高抗氧化，酒中贵族</p>						
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div>
+							<img class="img1" src="http://www.nongminbb.com/data/upload/shop/editor/9.jpg" alt="" />
+							<img class="img2" src="http://img.nongminbb.com//shop/brand/05149210617502919_small.jpg" alt="" />
+						</div>
+						<h3>金荞</h3>
+						<p>国家发明专利，纯荞麦酿造，降三高抗氧化，酒中贵族</p>						
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div>
+							<img class="img1" src="http://www.nongminbb.com/data/upload/shop/editor/9.jpg" alt="" />
+							<img class="img2" src="http://img.nongminbb.com//shop/brand/05149210617502919_small.jpg" alt="" />
+						</div>
+						<h3>金荞</h3>
+						<p>国家发明专利，纯荞麦酿造，降三高抗氧化，酒中贵族</p>						
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div>
+							<img class="img1" src="http://www.nongminbb.com/data/upload/shop/editor/9.jpg" alt="" />
+							<img class="img2" src="http://img.nongminbb.com//shop/brand/05149210617502919_small.jpg" alt="" />
+						</div>
+						<h3>金荞</h3>
+						<p>国家发明专利，纯荞麦酿造，降三高抗氧化，酒中贵族</p>						
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img class="img0" src="http://www.nongminbb.com/shop/img/shopwwi-brand-in.jpg" alt="" />							
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 热门品牌  brands  end-->
+		
+		<!-- 地方特色  tese  start -->
+		<div class="tese wrap">
+			<div class="teseL">
+				<div class="spTuijianlist">
+					<a href="#" class="spTuijianlogo">推  地方特色馆<i></i></a>
+					<p>
+						<a href="#" class="color1" >东北地区</a>
+						<a href="#" class="color0">华北地区</a>
+						<a href="#" class="color0">华中地区</a>
+						<a href="#" class="color1">华东地区</a> 
+						<a href="#" class="color0">华南地区</a>
+						<a href="#" class="color0">西北地区</a> 
+						<a href="#" class="color1">西南地区</a> 
+						<a href="#" class="color0">直辖市</a>
+						<a href="#" class="color0">国外特色馆</a>
+						
+					</p>
+					<!--<a href="#" class="spTuijianupdata">
+						<i style=""></i>
+						换一换
+					</a>-->
+				</div>
+				<div class="spTuijian1">
+					<div class="li">
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+					</div>
+					<a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-83.jpg?455" alt="" /></a>
+				</div>
+			</div>
+			<div class="teseR">
+				<ul class="tesenav">
+					<li class="current"><i></i>祁东特产</li>
+					<li><i></i>商品推荐</li>
+					<li><i></i>热门产品</li>
+					<li><i></i>销量排行</li>
+				</ul>
+				<div class="tesebanner">
+					<ul>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-1.jpg?421" alt="" /></a></li>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-2.jpg?723" alt="" /></a></li>
+					</ul>
+				</div>				
+				<div class="tesecon">
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="teseB">
+				<a href="#" class="dplogo1"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>
+				<a href="#" class="dplogo2"><img src="public/img/dplogo/04399902137097199_sm.jpg" alt="" /></a>
+				<a href="#" class="dplogo3"><img src="public/img/dplogo/04399902780394855_sm.jpg"/></a>
+				<a href="#" class="dplogo4"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo5"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo6"><img src="public/img/dplogo/04399903153847612_sm.jpg"/></a>
+				<a href="#" class="dplogo7"><img src="public/img/dplogo/04399903259361371_sm.jpg"/></a>
+				<a href="#" class="dplogo8"><img src="public/img/dplogo/04399903404912119_sm.jpg"/></a>
+				<a href="#" class="dplogo9"><img src="public/img/dplogo/05016282664016601_small.jpg"/></a>
+				<a href="#" class="dplogo10"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>				
+			</div>
+		</div>
+		<!-- 地方特色  tese  end -->
+				
+		<!-- 1F绿色有机生鲜   yilou  start -->
+		<div class="tese yilou wrap">
+			<div class="teseL">
+				<div class="spTuijianlist">
+					<a href="#" class="spTuijianlogo">推  地方特色馆<i></i></a>
+					<p>
+						<a href="#" class="color1" >东北地区</a>
+						<a href="#" class="color0">华北地区</a>
+						<a href="#" class="color0">华中地区</a>
+						<a href="#" class="color1">华东地区</a> 
+						<a href="#" class="color0">华南地区</a>
+						<a href="#" class="color0">西北地区</a> 
+						<a href="#" class="color1">西南地区</a> 
+						<a href="#" class="color0">直辖市</a>
+						<a href="#" class="color0">国外特色馆</a>
+						
+					</p>
+					<!--<a href="#" class="spTuijianupdata">
+						<i style=""></i>
+						换一换
+					</a>-->
+				</div>
+				<div class="spTuijian1">
+					<div class="li">
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+					</div>
+					<a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-83.jpg?455" alt="" /></a>
+				</div>
+			</div>
+			<div class="teseR">
+				<ul class="tesenav">
+					<li class="current"><i></i>祁东特产</li>
+					<li><i></i>商品推荐</li>
+					<li><i></i>热门产品</li>
+					<li><i></i>销量排行</li>
+				</ul>
+				<div class="tesebanner">
+					<ul>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-1.jpg?421" alt="" /></a></li>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-2.jpg?723" alt="" /></a></li>
+					</ul>
+				</div>							
+				<div class="tesecon">
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="teseB">
+				<a href="#" class="dplogo1"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>
+				<a href="#" class="dplogo2"><img src="public/img/dplogo/04399902137097199_sm.jpg" alt="" /></a>
+				<a href="#" class="dplogo3"><img src="public/img/dplogo/04399902780394855_sm.jpg"/></a>
+				<a href="#" class="dplogo4"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo5"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo6"><img src="public/img/dplogo/04399903153847612_sm.jpg"/></a>
+				<a href="#" class="dplogo7"><img src="public/img/dplogo/04399903259361371_sm.jpg"/></a>
+				<a href="#" class="dplogo8"><img src="public/img/dplogo/04399903404912119_sm.jpg"/></a>
+				<a href="#" class="dplogo9"><img src="public/img/dplogo/05016282664016601_small.jpg"/></a>
+				<a href="#" class="dplogo10"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>				
+			</div>
+		</div>
+		<!-- 1F绿色有机生鲜  yilou  end -->
+		
+		<!-- 2F零食粮油干货  erlou  start -->
+		<div class="tese erlou wrap">
+			<div class="teseL">
+				<div class="spTuijianlist">
+					<a href="#" class="spTuijianlogo">推  地方特色馆<i></i></a>
+					<p>
+						<a href="#" class="color1" >东北地区</a>
+						<a href="#" class="color0">华北地区</a>
+						<a href="#" class="color0">华中地区</a>
+						<a href="#" class="color1">华东地区</a> 
+						<a href="#" class="color0">华南地区</a>
+						<a href="#" class="color0">西北地区</a> 
+						<a href="#" class="color1">西南地区</a> 
+						<a href="#" class="color0">直辖市</a>
+						<a href="#" class="color0">国外特色馆</a>
+						
+					</p>
+					<!--<a href="#" class="spTuijianupdata">
+						<i style=""></i>
+						换一换
+					</a>-->
+				</div>
+				<div class="spTuijian1">
+					<div class="li">
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+					</div>
+					<a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-83.jpg?455" alt="" /></a>
+				</div>
+			</div>
+			<div class="teseR">
+				<ul class="tesenav">
+					<li class="current"><i></i>祁东特产</li>
+					<li><i></i>商品推荐</li>
+					<li><i></i>热门产品</li>
+					<li><i></i>销量排行</li>
+				</ul>
+				<div class="tesebanner">
+					<ul>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-1.jpg?421" alt="" /></a></li>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-2.jpg?723" alt="" /></a></li>
+					</ul>
+				</div>							
+				<div class="tesecon">
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="teseB">
+				<a href="#" class="dplogo1"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>
+				<a href="#" class="dplogo2"><img src="public/img/dplogo/04399902137097199_sm.jpg" alt="" /></a>
+				<a href="#" class="dplogo3"><img src="public/img/dplogo/04399902780394855_sm.jpg"/></a>
+				<a href="#" class="dplogo4"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo5"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo6"><img src="public/img/dplogo/04399903153847612_sm.jpg"/></a>
+				<a href="#" class="dplogo7"><img src="public/img/dplogo/04399903259361371_sm.jpg"/></a>
+				<a href="#" class="dplogo8"><img src="public/img/dplogo/04399903404912119_sm.jpg"/></a>
+				<a href="#" class="dplogo9"><img src="public/img/dplogo/05016282664016601_small.jpg"/></a>
+				<a href="#" class="dplogo10"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>				
+			</div>
+		</div><!-- 2F零食粮油干货  erlou  end -->
+		
+		<!-- 3F服装鞋箱包  sanlou  start -->
+		<div class="tese sanlou wrap">
+			<div class="teseL">
+				<div class="spTuijianlist">
+					<a href="#" class="spTuijianlogo">推  地方特色馆<i></i></a>
+					<p>
+						<a href="#" class="color1" >东北地区</a>
+						<a href="#" class="color0">华北地区</a>
+						<a href="#" class="color0">华中地区</a>
+						<a href="#" class="color1">华东地区</a> 
+						<a href="#" class="color0">华南地区</a>
+						<a href="#" class="color0">西北地区</a> 
+						<a href="#" class="color1">西南地区</a> 
+						<a href="#" class="color0">直辖市</a>
+						<a href="#" class="color0">国外特色馆</a>
+						
+					</p>
+					<!--<a href="#" class="spTuijianupdata">
+						<i style=""></i>
+						换一换
+					</a>-->
+				</div>
+				<div class="spTuijian1">
+					<div class="li">
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+					</div>
+					<a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-83.jpg?455" alt="" /></a>
+				</div>
+			</div>
+			<div class="teseR">
+				<ul class="tesenav">
+					<li class="current"><i></i>祁东特产</li>
+					<li><i></i>商品推荐</li>
+					<li><i></i>热门产品</li>
+					<li><i></i>销量排行</li>
+				</ul>
+				<div class="tesebanner">
+					<ul>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-1.jpg?421" alt="" /></a></li>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-2.jpg?723" alt="" /></a></li>
+					</ul>
+				</div>							
+				<div class="tesecon">
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="teseB">
+				<a href="#" class="dplogo1"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>
+				<a href="#" class="dplogo2"><img src="public/img/dplogo/04399902137097199_sm.jpg" alt="" /></a>
+				<a href="#" class="dplogo3"><img src="public/img/dplogo/04399902780394855_sm.jpg"/></a>
+				<a href="#" class="dplogo4"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo5"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo6"><img src="public/img/dplogo/04399903153847612_sm.jpg"/></a>
+				<a href="#" class="dplogo7"><img src="public/img/dplogo/04399903259361371_sm.jpg"/></a>
+				<a href="#" class="dplogo8"><img src="public/img/dplogo/04399903404912119_sm.jpg"/></a>
+				<a href="#" class="dplogo9"><img src="public/img/dplogo/05016282664016601_small.jpg"/></a>
+				<a href="#" class="dplogo10"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>				
+			</div>
+		</div><!-- 3F服装鞋箱包  sanlou  end -->
+		
+		<!-- 4F茶叶冲饮酒水  silou  start -->
+		<div class="tese silou wrap">
+			<div class="teseL">
+				<div class="spTuijianlist">
+					<a href="#" class="spTuijianlogo">推  地方特色馆<i></i></a>
+					<p>
+						<a href="#" class="color1" >东北地区</a>
+						<a href="#" class="color0">华北地区</a>
+						<a href="#" class="color0">华中地区</a>
+						<a href="#" class="color1">华东地区</a> 
+						<a href="#" class="color0">华南地区</a>
+						<a href="#" class="color0">西北地区</a> 
+						<a href="#" class="color1">西南地区</a> 
+						<a href="#" class="color0">直辖市</a>
+						<a href="#" class="color0">国外特色馆</a>
+						
+					</p>
+					<!--<a href="#" class="spTuijianupdata">
+						<i style=""></i>
+						换一换
+					</a>-->
+				</div>
+				<div class="spTuijian1">
+					<div class="li">
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+					</div>
+					<a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-83.jpg?455" alt="" /></a>
+				</div>
+			</div>
+			<div class="teseR">
+				<ul class="tesenav">
+					<li class="current"><i></i>祁东特产</li>
+					<li><i></i>商品推荐</li>
+					<li><i></i>热门产品</li>
+					<li><i></i>销量排行</li>
+				</ul>
+				<div class="tesebanner">
+					<ul>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-1.jpg?421" alt="" /></a></li>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-2.jpg?723" alt="" /></a></li>
+					</ul>
+				</div>							
+				<div class="tesecon">
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="teseB">
+				<a href="#" class="dplogo1"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>
+				<a href="#" class="dplogo2"><img src="public/img/dplogo/04399902137097199_sm.jpg" alt="" /></a>
+				<a href="#" class="dplogo3"><img src="public/img/dplogo/04399902780394855_sm.jpg"/></a>
+				<a href="#" class="dplogo4"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo5"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo6"><img src="public/img/dplogo/04399903153847612_sm.jpg"/></a>
+				<a href="#" class="dplogo7"><img src="public/img/dplogo/04399903259361371_sm.jpg"/></a>
+				<a href="#" class="dplogo8"><img src="public/img/dplogo/04399903404912119_sm.jpg"/></a>
+				<a href="#" class="dplogo9"><img src="public/img/dplogo/05016282664016601_small.jpg"/></a>
+				<a href="#" class="dplogo10"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>				
+			</div>
+		</div><!-- 4F茶叶冲饮酒水  silou  end -->
+		
+		<!-- 5F电器数码手机  wulou  start -->
+		<div class="tese wulou wrap">
+			<div class="teseL">
+				<div class="spTuijianlist">
+					<a href="#" class="spTuijianlogo">推  地方特色馆<i></i></a>
+					<p>
+						<a href="#" class="color1" >东北地区</a>
+						<a href="#" class="color0">华北地区</a>
+						<a href="#" class="color0">华中地区</a>
+						<a href="#" class="color1">华东地区</a> 
+						<a href="#" class="color0">华南地区</a>
+						<a href="#" class="color0">西北地区</a> 
+						<a href="#" class="color1">西南地区</a> 
+						<a href="#" class="color0">直辖市</a>
+						<a href="#" class="color0">国外特色馆</a>
+						
+					</p>
+					<!--<a href="#" class="spTuijianupdata">
+						<i style=""></i>
+						换一换
+					</a>-->
+				</div>
+				<div class="spTuijian1">
+					<div class="li">
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+					</div>
+					<a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-83.jpg?455" alt="" /></a>
+				</div>
+			</div>
+			<div class="teseR">
+				<ul class="tesenav">
+					<li class="current"><i></i>祁东特产</li>
+					<li><i></i>商品推荐</li>
+					<li><i></i>热门产品</li>
+					<li><i></i>销量排行</li>
+				</ul>
+				<div class="tesebanner">
+					<ul>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-1.jpg?421" alt="" /></a></li>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-2.jpg?723" alt="" /></a></li>
+					</ul>
+				</div>							
+				<div class="tesecon">
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="teseB">
+				<a href="#" class="dplogo1"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>
+				<a href="#" class="dplogo2"><img src="public/img/dplogo/04399902137097199_sm.jpg" alt="" /></a>
+				<a href="#" class="dplogo3"><img src="public/img/dplogo/04399902780394855_sm.jpg"/></a>
+				<a href="#" class="dplogo4"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo5"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo6"><img src="public/img/dplogo/04399903153847612_sm.jpg"/></a>
+				<a href="#" class="dplogo7"><img src="public/img/dplogo/04399903259361371_sm.jpg"/></a>
+				<a href="#" class="dplogo8"><img src="public/img/dplogo/04399903404912119_sm.jpg"/></a>
+				<a href="#" class="dplogo9"><img src="public/img/dplogo/05016282664016601_small.jpg"/></a>
+				<a href="#" class="dplogo10"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>				
+			</div>
+		</div>	
+		<!-- 5F电器数码手机  wulou  end -->
+		
+		<!-- 6F个护化妆家居  liulou  start -->
+		<div class="tese liulou wrap">
+			<div class="teseL">
+				<div class="spTuijianlist">
+					<a href="#" class="spTuijianlogo">推  地方特色馆<i></i></a>
+					<p>
+						<a href="#" class="color1" >东北地区</a>
+						<a href="#" class="color0">华北地区</a>
+						<a href="#" class="color0">华中地区</a>
+						<a href="#" class="color1">华东地区</a> 
+						<a href="#" class="color0">华南地区</a>
+						<a href="#" class="color0">西北地区</a> 
+						<a href="#" class="color1">西南地区</a> 
+						<a href="#" class="color0">直辖市</a>
+						<a href="#" class="color0">国外特色馆</a>
+						
+					</p>
+					<!--<a href="#" class="spTuijianupdata">
+						<i style=""></i>
+						换一换
+					</a>-->
+				</div>
+				<div class="spTuijian1">
+					<div class="li">
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+					</div>
+					<a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-83.jpg?455" alt="" /></a>
+				</div>
+			</div>
+			<div class="teseR">
+				<ul class="tesenav">
+					<li class="current"><i></i>祁东特产</li>
+					<li><i></i>商品推荐</li>
+					<li><i></i>热门产品</li>
+					<li><i></i>销量排行</li>
+				</ul>
+				<div class="tesebanner">
+					<ul>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-1.jpg?421" alt="" /></a></li>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-2.jpg?723" alt="" /></a></li>
+					</ul>
+				</div>							
+				<div class="tesecon">
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="teseB">
+				<a href="#" class="dplogo1"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>
+				<a href="#" class="dplogo2"><img src="public/img/dplogo/04399902137097199_sm.jpg" alt="" /></a>
+				<a href="#" class="dplogo3"><img src="public/img/dplogo/04399902780394855_sm.jpg"/></a>
+				<a href="#" class="dplogo4"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo5"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo6"><img src="public/img/dplogo/04399903153847612_sm.jpg"/></a>
+				<a href="#" class="dplogo7"><img src="public/img/dplogo/04399903259361371_sm.jpg"/></a>
+				<a href="#" class="dplogo8"><img src="public/img/dplogo/04399903404912119_sm.jpg"/></a>
+				<a href="#" class="dplogo9"><img src="public/img/dplogo/05016282664016601_small.jpg"/></a>
+				<a href="#" class="dplogo10"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>				
+			</div>
+		</div>	
+		<!-- 6F个护化妆家居  liulou  end -->
+		
+		<!-- 7F营养保健礼盒  qilou  start -->
+		<div class="tese qilou wrap">
+			<div class="teseL">
+				<div class="spTuijianlist">
+					<a href="#" class="spTuijianlogo">推  地方特色馆<i></i></a>
+					<p>
+						<a href="#" class="color1" >东北地区</a>
+						<a href="#" class="color0">华北地区</a>
+						<a href="#" class="color0">华中地区</a>
+						<a href="#" class="color1">华东地区</a> 
+						<a href="#" class="color0">华南地区</a>
+						<a href="#" class="color0">西北地区</a> 
+						<a href="#" class="color1">西南地区</a> 
+						<a href="#" class="color0">直辖市</a>
+						<a href="#" class="color0">国外特色馆</a>
+						
+					</p>
+					<!--<a href="#" class="spTuijianupdata">
+						<i style=""></i>
+						换一换
+					</a>-->
+				</div>
+				<div class="spTuijian1">
+					<div class="li">
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+						<a href="#"><i></i>湘西黑猪腊肉惊爆价198元/盒</a>
+					</div>
+					<a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-83.jpg?455" alt="" /></a>
+				</div>
+			</div>
+			<div class="teseR">
+				<ul class="tesenav">
+					<li class="current"><i></i>祁东特产</li>
+					<li><i></i>商品推荐</li>
+					<li><i></i>热门产品</li>
+					<li><i></i>销量排行</li>
+				</ul>
+				<div class="tesebanner">
+					<ul>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-1.jpg?421" alt="" /></a></li>
+						<li><a href="#"><img src="http://img.nongminbb.com//shop/editor/web-8-88-2.jpg?723" alt="" /></a></li>
+					</ul>
+				</div>
+				
+				<div class="tesecon">
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+					<ul class="teseitem1">
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+						<li>
+							<h3>吉林特色馆 吉林特产</h3>
+							<p>45.00 <del>90.00</del></p>
+							<img src="http://img.nongminbb.com//shop/store/goods/160/2015/12/28/160_05046120556486301_240.png" alt="" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="teseB">
+				<a href="#" class="dplogo1"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>
+				<a href="#" class="dplogo2"><img src="public/img/dplogo/04399902137097199_sm.jpg" alt="" /></a>
+				<a href="#" class="dplogo3"><img src="public/img/dplogo/04399902780394855_sm.jpg"/></a>
+				<a href="#" class="dplogo4"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo5"><img src="public/img/dplogo/04399902896835151_sm.jpg"/></a>
+				<a href="#" class="dplogo6"><img src="public/img/dplogo/04399903153847612_sm.jpg"/></a>
+				<a href="#" class="dplogo7"><img src="public/img/dplogo/04399903259361371_sm.jpg"/></a>
+				<a href="#" class="dplogo8"><img src="public/img/dplogo/04399903404912119_sm.jpg"/></a>
+				<a href="#" class="dplogo9"><img src="public/img/dplogo/05016282664016601_small.jpg"/></a>
+				<a href="#" class="dplogo10"><img src="public/img/dplogo/04399893596931049_sm.jpg"/></a>				
+			</div>
+		</div>
+		<!-- 7F营养保健礼盒  qilou   end -->
+		
+		<!-- 楼层中 公用的幻灯片 -->
+		<script type="text/javascript">
+			$(document).ready(function($) {	
+				var slider= $('.tesebanner').unslider({
+					autoplay:true,
+					arrows:false,
+					delay:6000
+				});
+				$('.teseR nav li').hover(function(){
+					$(this).trigger('click');
+				},function(){});
+			});
+		</script>
+	
+		<!-- 特卖  temai start  -->
+		<div class="temaiBox wrap">
+			<div class="temai">
+				<div class="bt2">
+					<hr />
+					<h3><span>特卖TeMai</span></h3>
+				</div>
+				<div class="temailist">
+					<ul>
+						<li>
+							<div class="box" >
+								<img src="http://img.nongminbb.com//shop/groupbuy/4/4_05212033145386689_small.jpg"/>
+								<div class="qiang">
+									<span>￥168.00</span>
+									<a href="#">立即抢</a>
+								</div>
+								<p class="bt">红心软片1000g 红薯干连城地瓜干片 番薯</p>
+								<p class="time">
+									<span class="sell">已售<em>27</em></span>
+									<span class="timeRemain"><em time_id="d">53</em>天<em time_id="h">2</em>小时 <em time_id="m">52</em>分<em time_id="s">10</em>秒 </span>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="fengqiang">
+				<div class="bt2">
+					<hr />
+					<h3><span>疯抢FengQiang</span></h3>
+				</div>
+				<div class="left">
+					<a href="#"><img src="http://img.nongminbb.com//cms/special/05147397933612540.jpg" alt="" /></a>
+					<a href="#"><img src="http://img.nongminbb.com//cms/special/05147395206087629.jpg" alt="" /></a>
+				</div>
+				<div class="right">
+					<ul>
+						<li>
+							<p class="tiem"><i></i><em time_id="d">1209</em>天<em time_id="h">2</em>小时 <em time_id="m">24</em>分<em time_id="s">48</em>秒 </p>
+							<a href="#"><img src="http://img.nongminbb.com//shop/store/goods/1/1_04418240955916042_240.jpg" alt="" /></a>
+							<div class="priceCount">
+								<em>5.9折</em>
+							</div>
+							<p class="price">
+								<span>¥58.00</span>
+								<del>¥99.00</del>
+							</p>
+							<h4>春装 披肩式 超短款 针织 衫开衫 女</h4>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="shaidan">
+				<div class="bt2">
+					<hr />
+					<h3><span>疯抢FengQiang</span></h3>
+				</div>
+				<div class="shaidanli">
+					<ul>
+						<li>
+							<a href="#"><img src="http://img.nongminbb.com//shop/store/goods/4/2016/02/29/4_05100778488893357.jpg" alt="" /></a>
+							<div class="con">
+								<h4><i>...</i>qi***</h4>
+								<p>
+									<span></span>
+									<a href="">满满的奶香味  软软的 口感不错 值得尝试 <span></span></a>
+								</p>
+							</div>
+						</li>
+						<li>
+							<a href="#"><img src="http://img.nongminbb.com//shop/store/goods/4/2016/02/29/4_05100778488893357.jpg" alt="" /></a>
+							<div class="con">
+								<h4><i>...</i>qi***</h4>
+								<p>
+									<span></span>
+									<a href="">满满的奶香味  软软的 口感不错 值得尝试 <span></span></a>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>                 
+			
+		</div>
+		<!-- 特卖  temai end  -->		
+	</div>
+	<!-- 首页主要内容 main end -->
+	
+	<!--  rightBox  start-->
+	<div class="rightBox">
+		<div class="rightBoxC">
+			<div class="touxiang">
+				<a href="#">
+					<img src="http://img.nongminbb.com//shop/common/default_user_portrait.gif" alt="" />
+				</a>
+			</div>
+			<div class="myCart">
+				<i></i>
+				购<br />
+				物<br />车
+			</div>
+			<div class="duibi">
+				<i></i>
+				<span>商品对比</span>
+			</div>
+			<div class="zaixian">
+				<i></i>
+				<span>在线联系</span>
+			</div>
+		</div>
+		<div class="rightBoxB">
+			<div class="erweima">
+				<i></i>
+					<img src="http://img.nongminbb.com//mobile/05147439613256212.jpg" alt="" />
+				
+			</div>
+			<div class="backtop">
+				<i></i>
+				<span>在线联系</span>
+			</div>
+		</div>
+		
+		
+	</div>
+	<!--  rightBox  end-->
+	
+	<!--  lounav  start-->
+	<div style="display: none;" class="lounav">
+		<div class="wrap">
+			<div class="lounavlogo">
+				
+			</div>
+			<ul>
+				<li>
+					<a href="#" class="cur"> <i>01</i><span>特产</span></a>
+				</li>
+				<li>
+					<a href="#" > <i>01</i><span>特产</span></a>
+				</li>
+				<li>
+					<a href="#"> <i>01</i><span>特产</span></a>
+				</li>
+				<li>
+					<a href="#" > <i>01</i><span>特产</span></a>
+				</li>
+				<li>
+					<a href="#" > <i>01</i><span>特产</span></a>
+				</li>
+				<li>
+					<a href="#"> <i>01</i><span>特产</span></a>
+				</li>
+				<li>
+					<a href="#" > <i>01</i><span>特产</span></a>
+				</li>
+				<li>
+					<a href="#" > <i>01</i><span>特产</span></a>
+				</li>
+			</ul>
+			
+		</div>
+	</div>
+	<!--  lounav  end-->
+	
+	<!-- footer start -->
+	<div class="footer">
+		<div class="foot1 wrap">
+			<div class="left">
+				<span><i style="background-image: url(http://img.nongminbb.com//shop/contracticon/pz_60.gif);"></i>七天退货</span>
+				<span><i style="background-image: url(http://img.nongminbb.com//shop/contracticon/pz_60.gif);"></i>品质承诺</span>
+				<span><i style="background-image: url(http://img.nongminbb.com//shop/contracticon/pz_60.gif);"></i>破损补寄</span>
+				<span><i style="background-image: url(http://img.nongminbb.com//shop/contracticon/pz_60.gif);"></i>极速物流</span>
+			</div>
+			<p><b>客服电话：</b><em>400-699-1986转5 </em><span>08:00-22:30(周一至周日)</span></p>
+		</div>
+		
+		<div class="links wrap">
+			<ul class="linkbox">
+				<li>
+					<dl>
+						<dt>帮助中心</dt>
+						<dd><a href="#">卖家在线交流咨询专区</a></dd>
+						<dd><a href="#">网店运营教程集合</a></dd>
+						<dd><a href="#">如何抢注二级域名？</a></dd>
+						<dd><a href="#">店铺管理详解</a></dd>
+						<dd><a href="#">促销管理详解</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>店主之家</dt>
+						<dd><a href="#">商城商品推荐</a></dd>
+						<dd><a href="#">如何申请开店</a></dd>
+						<dd><a href="#">如何管理店铺？</a></dd>
+						<dd><a href="#">如何发货</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>支付方式</dt>
+						<dd><a href="#">在线支付</a></dd>
+						<dd><a href="#">如何注册支付宝</a></dd>
+						<dd><a href="#">分期付款</a></dd>
+						<dd><a href="#">邮局汇款</a></dd>
+						<dd><a href="#">公司转账</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>售后服务</dt>
+						<dd><a href="#">退换货流程</a></dd>
+						<dd><a href="#">退换货流程</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>客服中心</dt>
+						<dd><a href="#">会员修改密码</a></dd>
+						<dd><a href="#">会员修改个人资料</a></dd>
+						<dd><a href="#">修改收货地址</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt>关于我们</dt>
+						<dd><a href="#"> 农民伯伯村级电商服务站 </a></dd>
+						<dd><a href="#">“e农村”介绍</a></dd>
+						<dd><a href="#">合作及洽谈</a></dd>
+						<dd><a href="#">关于农民伯伯</a></dd>
+						<dd><a href="#">联系我们</a></dd>
+					</dl>
+				</li>
+				<li class="cooperation">
+					<dl>
+						<dt>商家合作</dt>
+						<dd>
+							<p>错过天猫？别再错过我们！</p>
+							<p>农民伯伯开启全新农村电商!</p>
+							<a href="http://www.nongminbb.com/shop/index.php?act=show_joinin&amp;op=index" class="btn" target="_blank">
+								<span>立即入驻</span>&gt;
+							</a>
+						</dd>
+					</dl>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="foot wrap">
+			<div class="footlogo">
+				<a href="#"><img src="http://www.nongminbb.com/shop/img/credit-flag3.png" alt="" /></a>
+				<a href="#"><img src="http://www.nongminbb.com/shop/img/isc2.png" alt="" /></a>
+			</div>
+			<div class="footcon">
+				<p>
+					<a href="#">返回首页</a>|
+					<a href="#">招聘英才</a>|
+					<a href="#">合作及洽谈</a>|
+					<a href="#">联系我们</a>|
+					<a href="#">关于我们</a>|
+					<a href="#">快递查询</a>|
+					<a href="#">电商服务站招募</a>|
+					<a href="#">农民伯伯家族系统</a>|
+					<a href="#">新闻动态</a>|
+					<a href="#">友情链接</a>
+				<p>CopyRight © 2015-2020 京ICP备14006340号-5 农民伯伯 版权所有 客户服务电话:400-699-1986转5 服务站交流QQ群：515597942</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+	
+	</body>
+</html>

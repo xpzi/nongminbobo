@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>农民伯伯首页</title>		
+		<link rel="stylesheet" type="text/css" href="public/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="public/css/reset.css"/>
+		<link rel="stylesheet" href="public/css/login.css" />
+		<!--<link rel="stylesheet" type="text/css" href="public/css/index.css" />-->
+		<!--<link rel="stylesheet" type="text/css" href="public/css/unslider.css" />-->		
+		<script src="public/js/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="public/js/unslider-min.js" type="text/javascript" charset="utf-8"></script>-->
+		<script src="public/js/admin/function.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<div class="header">
+			<div class="box">
+				<div class="logo"> <a href="index.html"><h1></h1></a></div>
+				<div class="right">
+					<!--<img src="http://img.nongminbb.com//shop/common/default_user_portrait.gif"/>
+					<span>
+						您好，欢迎来到农民伯伯<br />
+						已注册的会员请登录，或立即<a href="#">注册新会员</a>
+					</span>-->
+					<!--<span>我已经注册，现在就要</span>
+					<a href="#">登录</a>-->
+				</div>
+			</div>
+		</div>
+		
+		<!--  显示内容 的box -->
+		<div id="loginBox" class="loginBox"></div>
+		
+		
+		
+		<div class="clear"></div>
+		<div class="footer">
+			<div class="foot wrap"></div>	
+		</div>
+
+<script src="public/js/login.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">	
+
+	var str = window.location.href;
+	var str = str.split("?")[1];
+	var arr = [];
+	var obj = {};
+	if(str){
+		arr = str.split("&" );
+	}
+	for(var i= 0; i< arr.length ; i++){
+		arr[i] = arr[i].split("=");
+		obj[arr[i][0]] = arr[i][1];
+	}
+	$(document).ready(function(){
+		autoLogin();
+		function autoLogin(){
+			var user = userCookie.get();
+			if(user){
+				window.location.href = "index.html";
+			} else{
+				if(obj.reg ){
+					$(".foot").load("public/html/foot.html");
+					$(".loginBox").load("public/html/zhuce.html");
+				}else{
+					$(".foot").load("public/html/foot.html");
+					$(".loginBox").load("public/html/login.html");
+				}
+			}
+		}
+		
+		
+		
+		
+			
+	});
+</script>
+		
+	</body>
+</html>

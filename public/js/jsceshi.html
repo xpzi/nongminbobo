@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>js接口方法测试</title>
+	</head>
+	<body>
+<script src="admin/function.js" type="text/javascript"></script>
+<script type="text/javascript">
+	//分页获取数据
+	var fenye = "http://localhost:8080/product/GetProductsByPage_get?";
+	//获取单个商品
+	var dange= 'http://localhost:8080/product/GetProductById_get?id=000'; 
+	//删除商品
+	var del = 'http://localhost:8080/product/DeleteProductById_get?id=';
+	//添加商品
+	var tianjia = 'http://localhost:8080/product/CreateUpdateProduct_get?';
+	
+	
+	//用户名验证  有这个用户名 返回 1  没有返回 -1
+	var userCheck =  'http://localhost:8080/user/CheckUserNameGet?username=';
+	//获取用户列表 所有用户列表
+	var userList =  'http://localhost:8080/api/Users?';
+	//注册地址 注册成功返回1 失败 返回 -1
+	var zhuce =  'http://localhost:8080/user/registerGet?';
+	//用户登录验证地址 ， 验证成功返回 1 ， 失败 返回 -1
+	var login = "http://localhost:8080/user/loginGet?";
+	//var login = "http://localhost:8080/user/loginPost";
+	
+//	ajaxGet( login+'name=yjp00&password=abcdefghijk' , fn);
+	//ajaxPost( login, 'name=xiaoyang&password=abcdefghijk' , fn);
+	//ajaxGet(userCheck+'yjp' , fn);
+	//ajaxGet(zhuce+'name=yjp00&password=abcdefghijk', fn);
+	ajaxGet(userList, fn);
+	//ajaxGet(del+'1', fn  );
+	//ajaxGet(fenye+'pagesize=15&pageindex=1', fn  );
+	//ajaxGet(fenye+'pagesize=15&pageindex=2', fn  )
+	//addSpGet()  测试
+	//addSpGet({'name':"yjp" ,'age':22} ,fn);
+	//addType('地方特色产品' , 0,fn);
+	//addType('农资/农具/农机等' , 0,fn);
+	//addType('农资农具' , [2],fn);
+//	addType('肥料' , [2],fn);
+//	addType('农药' , [2],fn);
+//	addType('种苗' , [2],fn);
+//	addType('农具' , [2],fn);
+//	addType('饲料' , [2],fn);
+//	addType('农机' , [2],fn);	
+//getSpNum(fn);
+	
+	function fn(data){
+		console.log(" csshihanshu ");
+		console.log( data );
+		console.log(JSON.parse(data.Data));
+	
+	}
+	
+	
+</script>
+
+	</body>
+</html>
